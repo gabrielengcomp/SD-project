@@ -1,4 +1,4 @@
-[LB] ouvindo na porta 5000 (round-robin)
+[LB] ouvindo na porta 5000 (round-robin + circuit breaker)
 [LB] distribuição: App0=50 App1=49 App2=49
 [LB] distribuição: App0=50 App1=50 App2=49
 [LB] distribuição: App0=50 App1=50 App2=50
@@ -8,6 +8,27 @@
 [LB] distribuição: App0=150 App1=149 App2=149
 [LB] distribuição: App0=150 App1=150 App2=149
 [LB] distribuição: App0=150 App1=150 App2=150
-[LB] distribuição: App0=200 App1=199 App2=199
-[LB] distribuição: App0=200 App1=199 App2=200
+[LB] distribuição: App0=199 App1=200 App2=199
+[LB] distribuição: App0=200 App1=200 App2=199
 [LB] distribuição: App0=200 App1=200 App2=200
+[LB] distribuição: App0=250 App1=249 App2=249
+[LB] distribuição: App0=250 App1=250 App2=249
+[LB] distribuição: App0=250 App1=250 App2=250
+[LB] distribuição: App0=300 App1=299 App2=299
+[LB] distribuição: App0=300 App1=300 App2=299
+[LB] distribuição: App0=300 App1=300 App2=300
+[LB] distribuição: App0=349 App1=350 App2=349
+[LB] distribuição: App0=350 App1=350 App2=349
+[LB] distribuição: App0=350 App1=350 App2=350
+[LB] distribuição: App0=400 App1=399 App2=399
+[LB] distribuição: App0=400 App1=399 App2=400
+[LB] distribuição: App0=400 App1=400 App2=400
+[LB] distribuição: App0=449 App1=450 App2=449
+[LB] distribuição: App0=450 App1=450 App2=449
+[LB] distribuição: App0=451 App1=450 App2=450
+[LB] distribuição: App0=500 App1=499 App2=499
+[LB] distribuição: App0=500 App1=500 App2=499
+[LB] distribuição: App0=500 App1=500 App2=500
+[LB] distribuição: App0=550 App1=549 App2=549
+[LB] distribuição: App0=550 App1=550 App2=549
+[LB] distribuição: App0=550 App1=550 App2=550

@@ -2,12 +2,16 @@ package dataserver;
 
 import common.Config;
 import common.Net;
+import common.PrimeUtil;
 import common.Protocol;
 
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadLocalRandom;
@@ -29,6 +33,8 @@ import java.util.concurrent.ThreadLocalRandom;
  * enquanto os arquivos estão divergentes.
  */
 public class DataServer {
+    private static final Path PRIMOS_LOG = Path.of(Config.LOG_DIR, "primos.log");
+
     private final int id;
     private final int port;
     private final int peerPort;
@@ -70,7 +76,16 @@ public class DataServer {
             if (line == null) return;
             String[] f = Protocol.parse(line, 3);
             switch (f[0]) {
-                case Protocol.CHECK -> out.println(handleCheck(Integer.parseInt(f[1])));
+                case Protocol.CHECK -> {
+                    String r;
+                    try {
+                        r = handleCheck(Integer.parseInt(f[1]));
+                    } catch (Exception e) { // responde ERR ao worker em vez de largar a conexão
+                        log("falha em CHECK " + f[1] + ": " + e.getMessage());
+                        r = Protocol.msg(Protocol.ERR, e.getMessage());
+                    }
+                    out.println(r);
+                }
                 case Protocol.MUTEX_REQ -> {
                     mutex.onPeerRequest(Long.parseLong(f[1]), Integer.parseInt(f[2]));
                     out.println(Protocol.MUTEX_OK);
@@ -79,6 +94,11 @@ public class DataServer {
                     store.applyReplica(Integer.parseInt(f[1]), Integer.parseInt(f[2]));
                     log("réplica aplicada: " + f[1] + " na linha " + f[2]);
                     out.println(Protocol.REPLICATE_ACK);
+                }
+                case Protocol.UNDO -> {
+                    boolean undone = store.rollbackLast(Integer.parseInt(f[1]));
+                    if (undone) log("inserção de " + f[1] + " desfeita a pedido do par");
+                    out.println(Protocol.UNDO_ACK);
                 }
                 default -> out.println(Protocol.msg(Protocol.ERR, "mensagem desconhecida"));
             }
@@ -99,7 +119,16 @@ public class DataServer {
                 result = Protocol.msg(Protocol.EXISTS, line);
             } else {
                 line = store.append(n);
-                replicate(n, line); // só segue depois do ACK do par
+                try {
+                    replicate(n, line); // só segue depois do ACK do par
+                } catch (IOException e) {
+                    // Réplica falhou: desfaz a escrita local para os arquivos não divergirem.
+                    store.rollbackLast(n);
+                    desfazerNoPar(n);
+                    log("réplica de " + n + " falhou; inserção desfeita (" + e.getMessage() + ")");
+                    throw e;
+                }
+                registrarPrimo(n);  // ainda dentro da seção crítica: escritas no primos.log não se sobrepõem
                 log("inseriu " + n + " na linha " + line + " (replicado)");
                 result = Protocol.msg(Protocol.INSERTED, line);
             }
@@ -107,6 +136,29 @@ public class DataServer {
             mutex.release();
         }
         return result;
+    }
+
+    /**
+     * Acrescenta n ao logs/primos.log se for primo. Só o servidor que fez a inserção
+     * original chama isto (a réplica não), e o número só é inserido uma vez no sistema,
+     * então o arquivo não tem repetição. A seção crítica distribuída impede que os dois
+     * servidores escrevam ao mesmo tempo.
+     */
+    private void registrarPrimo(int n) throws IOException {
+        if (!PrimeUtil.isPrime(n)) return;
+        Files.createDirectories(PRIMOS_LOG.toAbsolutePath().getParent());
+        Files.writeString(PRIMOS_LOG, n + System.lineSeparator(), StandardCharsets.UTF_8,
+                StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+    }
+
+    /**
+     * Melhor esforço: se o par chegou a aplicar a réplica e só o ACK se perdeu, manda desfazer
+     * lá também. Se o par estiver fora do ar, ele não aplicou, e a falha é ignorada.
+     */
+    private void desfazerNoPar(int n) {
+        try {
+            Net.requestOnce(peerPort, Protocol.msg(Protocol.UNDO, n), 500, 2000);
+        } catch (IOException ignored) { }
     }
 
     private void replicate(int n, int line) throws IOException {

@@ -1,6 +1,7 @@
 package common;
 
 import java.io.*;
+import java.net.InetSocketAddress;
 import java.net.Socket;
 
 /** Utilitarios de socket TCP. */
@@ -37,6 +38,24 @@ public final class Net {
             BufferedReader in = reader(s);
             out.println(line);
             String resp = in.readLine();
+            if (resp == null) throw new IOException("Conexao encerrada sem resposta (porta " + port + ")");
+            return resp;
+        }
+    }
+
+    /**
+     * Uma única tentativa, com timeouts: falha rápido em vez de insistir (usado pelo balanceador
+     * para detectar servidor fora do ar, e pelo desfazer da réplica).
+     */
+    public static String requestOnce(int port, String line, int connectTimeoutMs, int readTimeoutMs)
+            throws IOException {
+        try (Socket s = new Socket()) {
+            s.connect(new InetSocketAddress(Config.HOST, port), connectTimeoutMs);
+            s.setSoTimeout(readTimeoutMs);
+            PrintWriter out = writer(s);
+            BufferedReader in = reader(s);
+            out.println(line);
+            String resp = in.readLine(); // SocketTimeoutException (IOException) se estourar o tempo
             if (resp == null) throw new IOException("Conexao encerrada sem resposta (porta " + port + ")");
             return resp;
         }

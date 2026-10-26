@@ -3,7 +3,9 @@ package dataserver;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -14,8 +16,9 @@ import java.util.Map;
  */
 public class FileStore {
     private final Path path;
-    private final BufferedWriter writer;
+    private BufferedWriter writer;
     private final Map<Integer, Integer> index = new HashMap<>();
+    private final List<Integer> values = new ArrayList<>(); // valores na ordem das linhas
     private int lines = 0;
 
     public FileStore(Path path) throws IOException {
@@ -38,6 +41,7 @@ public class FileStore {
         writer.newLine();
         writer.flush();
         index.put(n, lines);
+        values.add(n);
         return lines;
     }
 
@@ -53,6 +57,26 @@ public class FileStore {
         if (line != expectedLine)
             throw new IOException("Divergência: " + n + " ficou na linha " + line
                     + ", réplica esperava " + expectedLine);
+    }
+
+    /**
+     * Desfaz a última inserção, se ela for n (usado quando a réplica falha). Reescreve o
+     * arquivo sem a última linha. Retorna true se desfez; false se a última linha não é n
+     * (nada a fazer: a inserção não chegou a ocorrer aqui).
+     */
+    public synchronized boolean rollbackLast(int n) throws IOException {
+        if (values.isEmpty() || values.get(values.size() - 1) != n) return false;
+        values.remove(values.size() - 1);
+        index.remove(n);
+        lines--;
+        writer.close();
+        List<String> out = new ArrayList<>();
+        for (int v : values) out.add(Integer.toString(v));
+        Files.write(path, out, StandardCharsets.UTF_8, StandardOpenOption.CREATE,
+                StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);
+        writer = Files.newBufferedWriter(path, StandardCharsets.UTF_8,
+                StandardOpenOption.CREATE, StandardOpenOption.APPEND, StandardOpenOption.WRITE);
+        return true;
     }
 
     public synchronized int size() { return lines; }

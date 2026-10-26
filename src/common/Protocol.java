@@ -9,6 +9,7 @@ package common;
  *  Data -> App          :  EXISTS;<linha>  |  INSERTED;<linha>
  *  Data <-> Data        :  MUTEX_REQ;<ts>;<id>  ->  MUTEX_OK
  *                          REPLICATE;<n>;<linha> -> REPLICATE_ACK
+ *                          UNDO;<n>              -> UNDO_ACK  (desfaz a última inserção, se for n)
  */
 public final class Protocol {
     private Protocol() {}
@@ -27,6 +28,8 @@ public final class Protocol {
     public static final String MUTEX_OK = "MUTEX_OK";
     public static final String REPLICATE = "REPLICATE";
     public static final String REPLICATE_ACK = "REPLICATE_ACK";
+    public static final String UNDO = "UNDO";
+    public static final String UNDO_ACK = "UNDO_ACK";
 
     public static String msg(Object... parts) {
         StringBuilder sb = new StringBuilder();

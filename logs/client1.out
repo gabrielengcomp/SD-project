@@ -1,334 +1,867 @@
 [Client 1] iniciado; log em logs/client1.log
-[Client 1] O número 281 é primo, não está presente no arquivo, e foi inserido na linha 2
-[Client 1] O número 433 é primo, não está presente no arquivo, e foi inserido na linha 4
-[Client 1] O número 339 não é primo, não está presente no arquivo, e foi inserido na linha 6
-[Client 1] O número 468 não é primo, não está presente no arquivo, e foi inserido na linha 7
-[Client 1] O número 433 é primo, e já se encontra no arquivo na linha 4
-[Client 1] O número 153 não é primo, não está presente no arquivo, e foi inserido na linha 10
-[Client 1] O número 127 é primo, não está presente no arquivo, e foi inserido na linha 12
-[Client 1] O número 577 é primo, e já se encontra no arquivo na linha 3
-[Client 1] O número 427 não é primo, não está presente no arquivo, e foi inserido na linha 16
-[Client 1] O número 704 não é primo, não está presente no arquivo, e foi inserido na linha 18
-[Client 1] O número 906 não é primo, não está presente no arquivo, e foi inserido na linha 19
-[Client 1] O número 151 é primo, não está presente no arquivo, e foi inserido na linha 21
-[Client 1] O número 527 não é primo, não está presente no arquivo, e foi inserido na linha 23
-[Client 1] O número 246 não é primo, não está presente no arquivo, e foi inserido na linha 25
-[Client 1] O número 64 não é primo, não está presente no arquivo, e foi inserido na linha 27
-[Client 1] O número 656 não é primo, não está presente no arquivo, e foi inserido na linha 29
-[Client 1] O número 386 não é primo, não está presente no arquivo, e foi inserido na linha 30
-[Client 1] O número 458 não é primo, não está presente no arquivo, e foi inserido na linha 33
-[Client 1] O número 313 é primo, não está presente no arquivo, e foi inserido na linha 35
-[Client 1] O número 661 é primo, não está presente no arquivo, e foi inserido na linha 36
-[Client 1] O número 562 não é primo, não está presente no arquivo, e foi inserido na linha 38
-[Client 1] O número 924 não é primo, não está presente no arquivo, e foi inserido na linha 40
-[Client 1] O número 419 é primo, não está presente no arquivo, e foi inserido na linha 42
-[Client 1] O número 103 é primo, não está presente no arquivo, e foi inserido na linha 44
-[Client 1] O número 3 é primo, não está presente no arquivo, e foi inserido na linha 46
-[Client 1] O número 347 é primo, não está presente no arquivo, e foi inserido na linha 48
-[Client 1] O número 813 não é primo, não está presente no arquivo, e foi inserido na linha 50
-[Client 1] O número 457 é primo, não está presente no arquivo, e foi inserido na linha 52
-[Client 1] O número 638 não é primo, não está presente no arquivo, e foi inserido na linha 54
-[Client 1] O número 174 não é primo, não está presente no arquivo, e foi inserido na linha 56
-[Client 1] O número 45 não é primo, não está presente no arquivo, e foi inserido na linha 59
-[Client 1] O número 235 não é primo, não está presente no arquivo, e foi inserido na linha 60
-[Client 1] O número 349 é primo, não está presente no arquivo, e foi inserido na linha 62
-[Client 1] O número 540 não é primo, e já se encontra no arquivo na linha 47
-[Client 1] O número 733 é primo, não está presente no arquivo, e foi inserido na linha 65
-[Client 1] O número 367 é primo, não está presente no arquivo, e foi inserido na linha 68
-[Client 1] O número 683 é primo, não está presente no arquivo, e foi inserido na linha 70
-[Client 1] O número 237 não é primo, não está presente no arquivo, e foi inserido na linha 72
-[Client 1] O número 598 não é primo, não está presente no arquivo, e foi inserido na linha 74
-[Client 1] O número 988 não é primo, não está presente no arquivo, e foi inserido na linha 76
-[Client 1] O número 377 não é primo, não está presente no arquivo, e foi inserido na linha 78
-[Client 1] O número 556 não é primo, não está presente no arquivo, e foi inserido na linha 79
-[Client 1] O número 958 não é primo, não está presente no arquivo, e foi inserido na linha 81
-[Client 1] O número 438 não é primo, não está presente no arquivo, e foi inserido na linha 83
-[Client 1] O número 812 não é primo, não está presente no arquivo, e foi inserido na linha 86
-[Client 1] O número 452 não é primo, não está presente no arquivo, e foi inserido na linha 88
-[Client 1] O número 158 não é primo, não está presente no arquivo, e foi inserido na linha 90
-[Client 1] O número 490 não é primo, não está presente no arquivo, e foi inserido na linha 92
-[Client 1] O número 812 não é primo, e já se encontra no arquivo na linha 86
-[Client 1] O número 17 é primo, não está presente no arquivo, e foi inserido na linha 95
-[Client 1] O número 773 é primo, não está presente no arquivo, e foi inserido na linha 97
-[Client 1] O número 405 não é primo, não está presente no arquivo, e foi inserido na linha 99
-[Client 1] O número 47 é primo, não está presente no arquivo, e foi inserido na linha 100
-[Client 1] O número 312 não é primo, não está presente no arquivo, e foi inserido na linha 102
-[Client 1] O número 108 não é primo, não está presente no arquivo, e foi inserido na linha 104
-[Client 1] O número 72 não é primo, não está presente no arquivo, e foi inserido na linha 106
-[Client 1] O número 765 não é primo, não está presente no arquivo, e foi inserido na linha 107
-[Client 1] O número 487 é primo, e já se encontra no arquivo na linha 61
-[Client 1] O número 729 não é primo, não está presente no arquivo, e foi inserido na linha 110
-[Client 1] O número 815 não é primo, não está presente no arquivo, e foi inserido na linha 112
-[Client 1] O número 494 não é primo, não está presente no arquivo, e foi inserido na linha 114
-[Client 1] O número 464 não é primo, não está presente no arquivo, e foi inserido na linha 116
-[Client 1] O número 10 não é primo, e já se encontra no arquivo na linha 20
-[Client 1] O número 314 não é primo, não está presente no arquivo, e foi inserido na linha 118
-[Client 1] O número 80 não é primo, e já se encontra no arquivo na linha 117
-[Client 1] O número 329 não é primo, não está presente no arquivo, e foi inserido na linha 121
-[Client 1] O número 571 é primo, não está presente no arquivo, e foi inserido na linha 122
-[Client 1] O número 520 não é primo, não está presente no arquivo, e foi inserido na linha 124
-[Client 1] O número 790 não é primo, não está presente no arquivo, e foi inserido na linha 126
-[Client 1] O número 454 não é primo, não está presente no arquivo, e foi inserido na linha 128
-[Client 1] O número 217 não é primo, não está presente no arquivo, e foi inserido na linha 130
-[Client 1] O número 946 não é primo, não está presente no arquivo, e foi inserido na linha 132
-[Client 1] O número 472 não é primo, não está presente no arquivo, e foi inserido na linha 134
-[Client 1] O número 977 é primo, não está presente no arquivo, e foi inserido na linha 136
-[Client 1] O número 89 é primo, não está presente no arquivo, e foi inserido na linha 138
-[Client 1] O número 849 não é primo, não está presente no arquivo, e foi inserido na linha 139
-[Client 1] O número 439 é primo, não está presente no arquivo, e foi inserido na linha 141
-[Client 1] O número 51 não é primo, não está presente no arquivo, e foi inserido na linha 142
-[Client 1] O número 646 não é primo, não está presente no arquivo, e foi inserido na linha 144
-[Client 1] O número 38 não é primo, não está presente no arquivo, e foi inserido na linha 146
-[Client 1] O número 574 não é primo, não está presente no arquivo, e foi inserido na linha 149
-[Client 1] O número 771 não é primo, não está presente no arquivo, e foi inserido na linha 151
-[Client 1] O número 713 não é primo, e já se encontra no arquivo na linha 103
-[Client 1] O número 790 não é primo, e já se encontra no arquivo na linha 126
-[Client 1] O número 467 é primo, não está presente no arquivo, e foi inserido na linha 153
-[Client 1] O número 19 é primo, não está presente no arquivo, e foi inserido na linha 155
-[Client 1] O número 2 é primo, não está presente no arquivo, e foi inserido na linha 157
-[Client 1] O número 368 não é primo, não está presente no arquivo, e foi inserido na linha 159
-[Client 1] O número 879 não é primo, não está presente no arquivo, e foi inserido na linha 161
-[Client 1] O número 578 não é primo, não está presente no arquivo, e foi inserido na linha 163
-[Client 1] O número 484 não é primo, não está presente no arquivo, e foi inserido na linha 165
-[Client 1] O número 123 não é primo, não está presente no arquivo, e foi inserido na linha 167
-[Client 1] O número 862 não é primo, não está presente no arquivo, e foi inserido na linha 168
-[Client 1] O número 628 não é primo, não está presente no arquivo, e foi inserido na linha 169
-[Client 1] O número 858 não é primo, não está presente no arquivo, e foi inserido na linha 171
-[Client 1] O número 769 é primo, não está presente no arquivo, e foi inserido na linha 172
-[Client 1] O número 58 não é primo, não está presente no arquivo, e foi inserido na linha 175
-[Client 1] O número 578 não é primo, e já se encontra no arquivo na linha 163
-[Client 1] O número 181 é primo, não está presente no arquivo, e foi inserido na linha 176
-[Client 1] O número 206 não é primo, não está presente no arquivo, e foi inserido na linha 177
-[Client 1] O número 68 não é primo, não está presente no arquivo, e foi inserido na linha 179
-[Client 1] O número 337 é primo, não está presente no arquivo, e foi inserido na linha 181
-[Client 1] O número 864 não é primo, não está presente no arquivo, e foi inserido na linha 183
-[Client 1] O número 90 não é primo, não está presente no arquivo, e foi inserido na linha 185
-[Client 1] O número 458 não é primo, e já se encontra no arquivo na linha 33
-[Client 1] O número 983 é primo, não está presente no arquivo, e foi inserido na linha 189
-[Client 1] O número 758 não é primo, e já se encontra no arquivo na linha 14
-[Client 1] O número 665 não é primo, não está presente no arquivo, e foi inserido na linha 191
-[Client 1] O número 829 é primo, não está presente no arquivo, e foi inserido na linha 193
-[Client 1] O número 527 não é primo, e já se encontra no arquivo na linha 23
-[Client 1] O número 438 não é primo, e já se encontra no arquivo na linha 83
-[Client 1] O número 479 é primo, não está presente no arquivo, e foi inserido na linha 197
-[Client 1] O número 463 é primo, não está presente no arquivo, e foi inserido na linha 198
-[Client 1] O número 297 não é primo, e já se encontra no arquivo na linha 173
-[Client 1] O número 433 é primo, e já se encontra no arquivo na linha 4
-[Client 1] O número 39 não é primo, não está presente no arquivo, e foi inserido na linha 203
-[Client 1] O número 47 é primo, e já se encontra no arquivo na linha 100
-[Client 1] O número 451 não é primo, não está presente no arquivo, e foi inserido na linha 205
-[Client 1] O número 200 não é primo, não está presente no arquivo, e foi inserido na linha 206
-[Client 1] O número 980 não é primo, não está presente no arquivo, e foi inserido na linha 209
-[Client 1] O número 630 não é primo, não está presente no arquivo, e foi inserido na linha 211
-[Client 1] O número 62 não é primo, não está presente no arquivo, e foi inserido na linha 213
-[Client 1] O número 108 não é primo, e já se encontra no arquivo na linha 104
-[Client 1] O número 92 não é primo, não está presente no arquivo, e foi inserido na linha 215
-[Client 1] O número 238 não é primo, não está presente no arquivo, e foi inserido na linha 217
-[Client 1] O número 61 é primo, não está presente no arquivo, e foi inserido na linha 218
-[Client 1] O número 681 não é primo, não está presente no arquivo, e foi inserido na linha 220
-[Client 1] O número 477 não é primo, não está presente no arquivo, e foi inserido na linha 222
-[Client 1] O número 221 não é primo, não está presente no arquivo, e foi inserido na linha 224
-[Client 1] O número 968 não é primo, não está presente no arquivo, e foi inserido na linha 227
-[Client 1] O número 352 não é primo, não está presente no arquivo, e foi inserido na linha 229
-[Client 1] O número 180 não é primo, não está presente no arquivo, e foi inserido na linha 231
-[Client 1] O número 276 não é primo, não está presente no arquivo, e foi inserido na linha 233
-[Client 1] O número 629 não é primo, e já se encontra no arquivo na linha 85
-[Client 1] O número 132 não é primo, não está presente no arquivo, e foi inserido na linha 235
-[Client 1] O número 771 não é primo, e já se encontra no arquivo na linha 151
-[Client 1] O número 800 não é primo, não está presente no arquivo, e foi inserido na linha 237
-[Client 1] O número 983 é primo, e já se encontra no arquivo na linha 189
-[Client 1] O número 449 é primo, não está presente no arquivo, e foi inserido na linha 239
-[Client 1] O número 383 é primo, não está presente no arquivo, e foi inserido na linha 240
-[Client 1] O número 333 não é primo, não está presente no arquivo, e foi inserido na linha 241
-[Client 1] O número 117 não é primo, não está presente no arquivo, e foi inserido na linha 242
-[Client 1] O número 776 não é primo, não está presente no arquivo, e foi inserido na linha 244
-[Client 1] O número 566 não é primo, não está presente no arquivo, e foi inserido na linha 245
-[Client 1] O número 89 é primo, e já se encontra no arquivo na linha 138
-[Client 1] O número 416 não é primo, não está presente no arquivo, e foi inserido na linha 247
-[Client 1] O número 176 não é primo, não está presente no arquivo, e foi inserido na linha 249
-[Client 1] O número 286 não é primo, não está presente no arquivo, e foi inserido na linha 251
-[Client 1] O número 320 não é primo, e já se encontra no arquivo na linha 201
-[Client 1] O número 155 não é primo, não está presente no arquivo, e foi inserido na linha 254
-[Client 1] O número 16 não é primo, não está presente no arquivo, e foi inserido na linha 255
-[Client 1] O número 245 não é primo, não está presente no arquivo, e foi inserido na linha 257
-[Client 1] O número 476 não é primo, não está presente no arquivo, e foi inserido na linha 260
-[Client 1] O número 156 não é primo, não está presente no arquivo, e foi inserido na linha 262
-[Client 1] O número 324 não é primo, e já se encontra no arquivo na linha 238
-[Client 1] O número 603 não é primo, não está presente no arquivo, e foi inserido na linha 265
-[Client 1] O número 680 não é primo, não está presente no arquivo, e foi inserido na linha 267
-[Client 1] O número 413 não é primo, não está presente no arquivo, e foi inserido na linha 268
-[Client 1] O número 611 não é primo, e já se encontra no arquivo na linha 200
-[Client 1] O número 676 não é primo, não está presente no arquivo, e foi inserido na linha 270
-[Client 1] O número 455 não é primo, não está presente no arquivo, e foi inserido na linha 271
-[Client 1] O número 268 não é primo, não está presente no arquivo, e foi inserido na linha 273
-[Client 1] O número 68 não é primo, e já se encontra no arquivo na linha 179
-[Client 1] O número 685 não é primo, não está presente no arquivo, e foi inserido na linha 276
-[Client 1] O número 770 não é primo, não está presente no arquivo, e foi inserido na linha 278
-[Client 1] O número 842 não é primo, não está presente no arquivo, e foi inserido na linha 280
-[Client 1] O número 646 não é primo, e já se encontra no arquivo na linha 144
-[Client 1] O número 111 não é primo, não está presente no arquivo, e foi inserido na linha 284
-[Client 1] O número 218 não é primo, não está presente no arquivo, e foi inserido na linha 286
-[Client 1] O número 796 não é primo, não está presente no arquivo, e foi inserido na linha 287
-[Client 1] O número 229 é primo, não está presente no arquivo, e foi inserido na linha 289
-[Client 1] O número 869 não é primo, não está presente no arquivo, e foi inserido na linha 290
-[Client 1] O número 522 não é primo, e já se encontra no arquivo na linha 119
-[Client 1] O número 538 não é primo, não está presente no arquivo, e foi inserido na linha 292
-[Client 1] O número 265 não é primo, não está presente no arquivo, e foi inserido na linha 293
-[Client 1] O número 55 não é primo, não está presente no arquivo, e foi inserido na linha 296
-[Client 1] O número 992 não é primo, não está presente no arquivo, e foi inserido na linha 297
-[Client 1] O número 670 não é primo, não está presente no arquivo, e foi inserido na linha 300
-[Client 1] O número 350 não é primo, não está presente no arquivo, e foi inserido na linha 301
-[Client 1] O número 205 não é primo, não está presente no arquivo, e foi inserido na linha 303
-[Client 1] O número 175 não é primo, não está presente no arquivo, e foi inserido na linha 304
-[Client 1] O número 643 é primo, não está presente no arquivo, e foi inserido na linha 306
-[Client 1] O número 931 não é primo, não está presente no arquivo, e foi inserido na linha 308
-[Client 1] O número 544 não é primo, não está presente no arquivo, e foi inserido na linha 310
-[Client 1] O número 997 é primo, e já se encontra no arquivo na linha 232
-[Client 1] O número 629 não é primo, e já se encontra no arquivo na linha 85
-[Client 1] O número 143 não é primo, não está presente no arquivo, e foi inserido na linha 314
-[Client 1] O número 397 é primo, e já se encontra no arquivo na linha 194
-[Client 1] O número 132 não é primo, e já se encontra no arquivo na linha 235
-[Client 1] O número 801 não é primo, não está presente no arquivo, e foi inserido na linha 317
-[Client 1] O número 318 não é primo, não está presente no arquivo, e foi inserido na linha 319
-[Client 1] O número 998 não é primo, não está presente no arquivo, e foi inserido na linha 320
-[Client 1] O número 230 não é primo, não está presente no arquivo, e foi inserido na linha 322
-[Client 1] O número 878 não é primo, e já se encontra no arquivo na linha 192
-[Client 1] O número 596 não é primo, não está presente no arquivo, e foi inserido na linha 325
-[Client 1] O número 129 não é primo, e já se encontra no arquivo na linha 66
-[Client 1] O número 703 não é primo, não está presente no arquivo, e foi inserido na linha 328
-[Client 1] O número 493 não é primo, não está presente no arquivo, e foi inserido na linha 330
-[Client 1] O número 96 não é primo, não está presente no arquivo, e foi inserido na linha 332
-[Client 1] O número 713 não é primo, e já se encontra no arquivo na linha 103
-[Client 1] O número 516 não é primo, e já se encontra no arquivo na linha 111
-[Client 1] O número 257 é primo, não está presente no arquivo, e foi inserido na linha 336
-[Client 1] O número 603 não é primo, e já se encontra no arquivo na linha 265
-[Client 1] O número 517 não é primo, não está presente no arquivo, e foi inserido na linha 338
-[Client 1] O número 482 não é primo, e já se encontra no arquivo na linha 243
-[Client 1] O número 546 não é primo, não está presente no arquivo, e foi inserido na linha 340
-[Client 1] O número 799 não é primo, não está presente no arquivo, e foi inserido na linha 341
-[Client 1] O número 124 não é primo, não está presente no arquivo, e foi inserido na linha 342
-[Client 1] O número 694 não é primo, não está presente no arquivo, e foi inserido na linha 343
-[Client 1] O número 216 não é primo, não está presente no arquivo, e foi inserido na linha 345
-[Client 1] O número 639 não é primo, não está presente no arquivo, e foi inserido na linha 346
-[Client 1] O número 648 não é primo, não está presente no arquivo, e foi inserido na linha 348
-[Client 1] O número 582 não é primo, não está presente no arquivo, e foi inserido na linha 349
-[Client 1] O número 395 não é primo, não está presente no arquivo, e foi inserido na linha 350
-[Client 1] O número 834 não é primo, não está presente no arquivo, e foi inserido na linha 351
-[Client 1] O número 413 não é primo, e já se encontra no arquivo na linha 268
-[Client 1] O número 807 não é primo, não está presente no arquivo, e foi inserido na linha 353
-[Client 1] O número 102 não é primo, não está presente no arquivo, e foi inserido na linha 355
-[Client 1] O número 551 não é primo, não está presente no arquivo, e foi inserido na linha 357
-[Client 1] O número 64 não é primo, e já se encontra no arquivo na linha 27
-[Client 1] O número 611 não é primo, e já se encontra no arquivo na linha 200
-[Client 1] O número 681 não é primo, e já se encontra no arquivo na linha 220
-[Client 1] O número 461 é primo, não está presente no arquivo, e foi inserido na linha 359
-[Client 1] O número 620 não é primo, e já se encontra no arquivo na linha 309
-[Client 1] O número 24 não é primo, e já se encontra no arquivo na linha 228
-[Client 1] O número 880 não é primo, não está presente no arquivo, e foi inserido na linha 361
-[Client 1] O número 932 não é primo, não está presente no arquivo, e foi inserido na linha 362
-[Client 1] O número 792 não é primo, não está presente no arquivo, e foi inserido na linha 363
-[Client 1] O número 693 não é primo, não está presente no arquivo, e foi inserido na linha 365
-[Client 1] O número 359 é primo, não está presente no arquivo, e foi inserido na linha 367
-[Client 1] O número 265 não é primo, e já se encontra no arquivo na linha 293
-[Client 1] O número 89 é primo, e já se encontra no arquivo na linha 138
-[Client 1] O número 742 não é primo, não está presente no arquivo, e foi inserido na linha 371
-[Client 1] O número 438 não é primo, e já se encontra no arquivo na linha 83
-[Client 1] O número 95 não é primo, não está presente no arquivo, e foi inserido na linha 374
-[Client 1] O número 702 não é primo, e já se encontra no arquivo na linha 294
-[Client 1] O número 226 não é primo, não está presente no arquivo, e foi inserido na linha 376
-[Client 1] O número 541 é primo, não está presente no arquivo, e foi inserido na linha 378
-[Client 1] O número 88 não é primo, não está presente no arquivo, e foi inserido na linha 379
-[Client 1] O número 989 não é primo, não está presente no arquivo, e foi inserido na linha 380
-[Client 1] O número 455 não é primo, e já se encontra no arquivo na linha 271
-[Client 1] O número 878 não é primo, e já se encontra no arquivo na linha 192
-[Client 1] O número 952 não é primo, não está presente no arquivo, e foi inserido na linha 383
-[Client 1] O número 520 não é primo, e já se encontra no arquivo na linha 124
-[Client 1] O número 802 não é primo, não está presente no arquivo, e foi inserido na linha 384
-[Client 1] O número 786 não é primo, não está presente no arquivo, e foi inserido na linha 386
-[Client 1] O número 32 não é primo, e já se encontra no arquivo na linha 34
-[Client 1] O número 817 não é primo, não está presente no arquivo, e foi inserido na linha 389
-[Client 1] O número 539 não é primo, não está presente no arquivo, e foi inserido na linha 391
-[Client 1] O número 764 não é primo, não está presente no arquivo, e foi inserido na linha 392
-[Client 1] O número 710 não é primo, e já se encontra no arquivo na linha 274
-[Client 1] O número 233 é primo, não está presente no arquivo, e foi inserido na linha 395
-[Client 1] O número 411 não é primo, não está presente no arquivo, e foi inserido na linha 397
-[Client 1] O número 630 não é primo, e já se encontra no arquivo na linha 211
-[Client 1] O número 477 não é primo, e já se encontra no arquivo na linha 222
-[Client 1] O número 859 é primo, não está presente no arquivo, e foi inserido na linha 401
-[Client 1] O número 264 não é primo, e já se encontra no arquivo na linha 39
-[Client 1] O número 208 não é primo, e já se encontra no arquivo na linha 67
-[Client 1] O número 458 não é primo, e já se encontra no arquivo na linha 33
-[Client 1] O número 679 não é primo, não está presente no arquivo, e foi inserido na linha 404
-[Client 1] O número 613 é primo, não está presente no arquivo, e foi inserido na linha 407
-[Client 1] O número 894 não é primo, não está presente no arquivo, e foi inserido na linha 408
-[Client 1] O número 548 não é primo, não está presente no arquivo, e foi inserido na linha 409
-[Client 1] O número 911 é primo, e já se encontra no arquivo na linha 190
-[Client 1] O número 106 não é primo, não está presente no arquivo, e foi inserido na linha 413
-[Client 1] O número 878 não é primo, e já se encontra no arquivo na linha 192
-[Client 1] O número 350 não é primo, e já se encontra no arquivo na linha 301
-[Client 1] O número 503 é primo, e já se encontra no arquivo na linha 145
-[Client 1] O número 952 não é primo, e já se encontra no arquivo na linha 383
-[Client 1] O número 804 não é primo, não está presente no arquivo, e foi inserido na linha 417
-[Client 1] O número 105 não é primo, não está presente no arquivo, e foi inserido na linha 419
-[Client 1] O número 297 não é primo, e já se encontra no arquivo na linha 173
-[Client 1] O número 526 não é primo, não está presente no arquivo, e foi inserido na linha 422
-[Client 1] O número 998 não é primo, e já se encontra no arquivo na linha 320
-[Client 1] O número 57 não é primo, não está presente no arquivo, e foi inserido na linha 425
-[Client 1] O número 495 não é primo, não está presente no arquivo, e foi inserido na linha 428
-[Client 1] O número 584 não é primo, e já se encontra no arquivo na linha 295
-[Client 1] O número 491 é primo, não está presente no arquivo, e foi inserido na linha 430
-[Client 1] O número 360 não é primo, e já se encontra no arquivo na linha 323
-[Client 1] O número 510 não é primo, e já se encontra no arquivo na linha 258
-[Client 1] O número 537 não é primo, não está presente no arquivo, e foi inserido na linha 431
-[Client 1] O número 641 é primo, não está presente no arquivo, e foi inserido na linha 433
-[Client 1] O número 30 não é primo, e já se encontra no arquivo na linha 43
-[Client 1] O número 474 não é primo, não está presente no arquivo, e foi inserido na linha 436
-[Client 1] O número 975 não é primo, não está presente no arquivo, e foi inserido na linha 438
-[Client 1] O número 709 é primo, e já se encontra no arquivo na linha 315
-[Client 1] O número 330 não é primo, não está presente no arquivo, e foi inserido na linha 440
-[Client 1] O número 949 não é primo, não está presente no arquivo, e foi inserido na linha 441
-[Client 1] O número 826 não é primo, não está presente no arquivo, e foi inserido na linha 443
-[Client 1] O número 231 não é primo, não está presente no arquivo, e foi inserido na linha 444
-[Client 1] O número 479 é primo, e já se encontra no arquivo na linha 197
-[Client 1] O número 453 não é primo, não está presente no arquivo, e foi inserido na linha 446
-[Client 1] O número 812 não é primo, e já se encontra no arquivo na linha 86
-[Client 1] O número 729 não é primo, e já se encontra no arquivo na linha 110
-[Client 1] O número 580 não é primo, não está presente no arquivo, e foi inserido na linha 448
-[Client 1] O número 340 não é primo, não está presente no arquivo, e foi inserido na linha 449
-[Client 1] O número 123 não é primo, e já se encontra no arquivo na linha 167
-[Client 1] O número 976 não é primo, não está presente no arquivo, e foi inserido na linha 451
-[Client 1] O número 627 não é primo, e já se encontra no arquivo na linha 250
-[Client 1] O número 716 não é primo, não está presente no arquivo, e foi inserido na linha 453
-[Client 1] O número 404 não é primo, não está presente no arquivo, e foi inserido na linha 455
-[Client 1] O número 74 não é primo, não está presente no arquivo, e foi inserido na linha 456
-[Client 1] O número 212 não é primo, não está presente no arquivo, e foi inserido na linha 458
-[Client 1] O número 913 não é primo, não está presente no arquivo, e foi inserido na linha 459
-[Client 1] O número 922 não é primo, não está presente no arquivo, e foi inserido na linha 460
-[Client 1] O número 64 não é primo, e já se encontra no arquivo na linha 27
-[Client 1] O número 376 não é primo, e já se encontra no arquivo na linha 199
-[Client 1] O número 245 não é primo, e já se encontra no arquivo na linha 257
-[Client 1] O número 434 não é primo, não está presente no arquivo, e foi inserido na linha 462
-[Client 1] O número 536 não é primo, não está presente no arquivo, e foi inserido na linha 464
-[Client 1] O número 865 não é primo, não está presente no arquivo, e foi inserido na linha 466
-[Client 1] O número 573 não é primo, e já se encontra no arquivo na linha 259
-[Client 1] O número 772 não é primo, não está presente no arquivo, e foi inserido na linha 468
-[Client 1] O número 939 não é primo, não está presente no arquivo, e foi inserido na linha 470
-[Client 1] O número 501 não é primo, e já se encontra no arquivo na linha 186
-[Client 1] O número 118 não é primo, não está presente no arquivo, e foi inserido na linha 473
-[Client 1] O número 287 não é primo, não está presente no arquivo, e foi inserido na linha 475
-[Client 1] O número 695 não é primo, e já se encontra no arquivo na linha 418
-[Client 1] O número 796 não é primo, e já se encontra no arquivo na linha 287
-[Client 1] O número 984 não é primo, não está presente no arquivo, e foi inserido na linha 477
-[Client 1] O número 848 não é primo, e já se encontra no arquivo na linha 326
-[Client 1] O número 336 não é primo, não está presente no arquivo, e foi inserido na linha 479
-[Client 1] O número 557 é primo, não está presente no arquivo, e foi inserido na linha 480
-[Client 1] O número 997 é primo, e já se encontra no arquivo na linha 232
-[Client 1] O número 912 não é primo, não está presente no arquivo, e foi inserido na linha 481
-[Client 1] O número 303 não é primo, não está presente no arquivo, e foi inserido na linha 483
-[Client 1] O número 906 não é primo, e já se encontra no arquivo na linha 19
-[Client 1] O número 695 não é primo, e já se encontra no arquivo na linha 418
-[Client 1] O número 382 não é primo, não está presente no arquivo, e foi inserido na linha 484
-[Client 1] O número 70 não é primo, e já se encontra no arquivo na linha 461
-[Client 1] O número 652 não é primo, não está presente no arquivo, e foi inserido na linha 486
-[Client 1] O número 551 não é primo, e já se encontra no arquivo na linha 357
-[Client 1] arquivo STOP detectado; encerrando.
+[Client 1] O número 210 não é primo, não está presente no arquivo, e foi inserido na linha 1
+[Client 1] O número 868 não é primo, não está presente no arquivo, e foi inserido na linha 3
+[Client 1] O número 839 é primo, não está presente no arquivo, e foi inserido na linha 5
+[Client 1] O número 38 não é primo, não está presente no arquivo, e foi inserido na linha 7
+[Client 1] O número 105 não é primo, não está presente no arquivo, e foi inserido na linha 9
+[Client 1] O número 478 não é primo, não está presente no arquivo, e foi inserido na linha 11
+[Client 1] O número 912 não é primo, não está presente no arquivo, e foi inserido na linha 13
+[Client 1] O número 194 não é primo, não está presente no arquivo, e foi inserido na linha 15
+[Client 1] O número 478 não é primo, e já se encontra no arquivo na linha 11
+[Client 1] O número 226 não é primo, não está presente no arquivo, e foi inserido na linha 18
+[Client 1] O número 290 não é primo, não está presente no arquivo, e foi inserido na linha 19
+[Client 1] O número 673 é primo, não está presente no arquivo, e foi inserido na linha 21
+[Client 1] O número 426 não é primo, não está presente no arquivo, e foi inserido na linha 23
+[Client 1] O número 904 não é primo, não está presente no arquivo, e foi inserido na linha 25
+[Client 1] O número 377 não é primo, não está presente no arquivo, e foi inserido na linha 27
+[Client 1] O número 618 não é primo, não está presente no arquivo, e foi inserido na linha 29
+[Client 1] O número 325 não é primo, não está presente no arquivo, e foi inserido na linha 31
+[Client 1] O número 822 não é primo, não está presente no arquivo, e foi inserido na linha 33
+[Client 1] O número 401 é primo, não está presente no arquivo, e foi inserido na linha 34
+[Client 1] O número 655 não é primo, não está presente no arquivo, e foi inserido na linha 36
+[Client 1] O número 523 é primo, não está presente no arquivo, e foi inserido na linha 39
+[Client 1] O número 82 não é primo, não está presente no arquivo, e foi inserido na linha 41
+[Client 1] O número 127 é primo, não está presente no arquivo, e foi inserido na linha 43
+[Client 1] O número 196 não é primo, não está presente no arquivo, e foi inserido na linha 45
+[Client 1] O número 537 não é primo, não está presente no arquivo, e foi inserido na linha 47
+[Client 1] O número 322 não é primo, não está presente no arquivo, e foi inserido na linha 49
+[Client 1] O número 445 não é primo, não está presente no arquivo, e foi inserido na linha 51
+[Client 1] O número 909 não é primo, e já se encontra no arquivo na linha 10
+[Client 1] O número 753 não é primo, não está presente no arquivo, e foi inserido na linha 54
+[Client 1] O número 998 não é primo, não está presente no arquivo, e foi inserido na linha 57
+[Client 1] O número 297 não é primo, e já se encontra no arquivo na linha 6
+[Client 1] O número 457 é primo, não está presente no arquivo, e foi inserido na linha 59
+[Client 1] O número 269 é primo, não está presente no arquivo, e foi inserido na linha 61
+[Client 1] O número 662 não é primo, não está presente no arquivo, e foi inserido na linha 63
+[Client 1] O número 537 não é primo, e já se encontra no arquivo na linha 47
+[Client 1] O número 590 não é primo, não está presente no arquivo, e foi inserido na linha 66
+[Client 1] O número 968 não é primo, não está presente no arquivo, e foi inserido na linha 68
+[Client 1] O número 196 não é primo, e já se encontra no arquivo na linha 45
+[Client 1] O número 369 não é primo, não está presente no arquivo, e foi inserido na linha 70
+[Client 1] O número 199 é primo, não está presente no arquivo, e foi inserido na linha 72
+[Client 1] O número 200 não é primo, não está presente no arquivo, e foi inserido na linha 73
+[Client 1] O número 493 não é primo, não está presente no arquivo, e foi inserido na linha 75
+[Client 1] O número 710 não é primo, não está presente no arquivo, e foi inserido na linha 78
+[Client 1] O número 354 não é primo, não está presente no arquivo, e foi inserido na linha 80
+[Client 1] O número 817 não é primo, não está presente no arquivo, e foi inserido na linha 81
+[Client 1] O número 617 é primo, não está presente no arquivo, e foi inserido na linha 83
+[Client 1] O número 469 não é primo, não está presente no arquivo, e foi inserido na linha 84
+[Client 1] O número 984 não é primo, não está presente no arquivo, e foi inserido na linha 86
+[Client 1] O número 271 é primo, não está presente no arquivo, e foi inserido na linha 88
+[Client 1] O número 617 é primo, e já se encontra no arquivo na linha 83
+[Client 1] O número 642 não é primo, não está presente no arquivo, e foi inserido na linha 91
+[Client 1] O número 9 não é primo, não está presente no arquivo, e foi inserido na linha 93
+[Client 1] O número 902 não é primo, não está presente no arquivo, e foi inserido na linha 95
+[Client 1] O número 752 não é primo, não está presente no arquivo, e foi inserido na linha 97
+[Client 1] O número 215 não é primo, não está presente no arquivo, e foi inserido na linha 98
+[Client 1] O número 476 não é primo, não está presente no arquivo, e foi inserido na linha 100
+[Client 1] O número 173 é primo, não está presente no arquivo, e foi inserido na linha 102
+[Client 1] O número 110 não é primo, não está presente no arquivo, e foi inserido na linha 103
+[Client 1] O número 320 não é primo, não está presente no arquivo, e foi inserido na linha 105
+[Client 1] O número 466 não é primo, não está presente no arquivo, e foi inserido na linha 107
+[Client 1] O número 815 não é primo, não está presente no arquivo, e foi inserido na linha 110
+[Client 1] O número 890 não é primo, não está presente no arquivo, e foi inserido na linha 112
+[Client 1] O número 545 não é primo, não está presente no arquivo, e foi inserido na linha 114
+[Client 1] O número 114 não é primo, não está presente no arquivo, e foi inserido na linha 116
+[Client 1] O número 577 é primo, não está presente no arquivo, e foi inserido na linha 118
+[Client 1] O número 697 não é primo, não está presente no arquivo, e foi inserido na linha 120
+[Client 1] O número 137 é primo, não está presente no arquivo, e foi inserido na linha 121
+[Client 1] O número 653 é primo, não está presente no arquivo, e foi inserido na linha 123
+[Client 1] O número 454 não é primo, não está presente no arquivo, e foi inserido na linha 125
+[Client 1] O número 815 não é primo, e já se encontra no arquivo na linha 110
+[Client 1] O número 294 não é primo, não está presente no arquivo, e foi inserido na linha 128
+[Client 1] O número 288 não é primo, não está presente no arquivo, e foi inserido na linha 130
+[Client 1] O número 406 não é primo, não está presente no arquivo, e foi inserido na linha 132
+[Client 1] O número 217 não é primo, não está presente no arquivo, e foi inserido na linha 135
+[Client 1] O número 129 não é primo, não está presente no arquivo, e foi inserido na linha 137
+[Client 1] O número 770 não é primo, não está presente no arquivo, e foi inserido na linha 138
+[Client 1] O número 572 não é primo, não está presente no arquivo, e foi inserido na linha 140
+[Client 1] O número 739 é primo, não está presente no arquivo, e foi inserido na linha 142
+[Client 1] O número 792 não é primo, não está presente no arquivo, e foi inserido na linha 143
+[Client 1] O número 474 não é primo, não está presente no arquivo, e foi inserido na linha 145
+[Client 1] O número 128 não é primo, não está presente no arquivo, e foi inserido na linha 147
+[Client 1] O número 805 não é primo, e já se encontra no arquivo na linha 30
+[Client 1] O número 705 não é primo, e já se encontra no arquivo na linha 101
+[Client 1] O número 586 não é primo, não está presente no arquivo, e foi inserido na linha 151
+[Client 1] O número 958 não é primo, não está presente no arquivo, e foi inserido na linha 152
+[Client 1] O número 610 não é primo, não está presente no arquivo, e foi inserido na linha 154
+[Client 1] O número 446 não é primo, não está presente no arquivo, e foi inserido na linha 156
+[Client 1] O número 830 não é primo, não está presente no arquivo, e foi inserido na linha 157
+[Client 1] O número 920 não é primo, não está presente no arquivo, e foi inserido na linha 160
+[Client 1] O número 660 não é primo, não está presente no arquivo, e foi inserido na linha 162
+[Client 1] O número 867 não é primo, não está presente no arquivo, e foi inserido na linha 164
+[Client 1] O número 851 não é primo, não está presente no arquivo, e foi inserido na linha 166
+[Client 1] O número 494 não é primo, e já se encontra no arquivo na linha 67
+[Client 1] O número 648 não é primo, não está presente no arquivo, e foi inserido na linha 167
+[Client 1] O número 817 não é primo, e já se encontra no arquivo na linha 81
+[Client 1] O número 329 não é primo, não está presente no arquivo, e foi inserido na linha 170
+[Client 1] O número 331 é primo, não está presente no arquivo, e foi inserido na linha 171
+[Client 1] O número 287 não é primo, e já se encontra no arquivo na linha 139
+[Client 1] O número 555 não é primo, não está presente no arquivo, e foi inserido na linha 174
+[Client 1] O número 522 não é primo, não está presente no arquivo, e foi inserido na linha 176
+[Client 1] O número 424 não é primo, não está presente no arquivo, e foi inserido na linha 177
+[Client 1] O número 612 não é primo, e já se encontra no arquivo na linha 173
+[Client 1] O número 807 não é primo, não está presente no arquivo, e foi inserido na linha 181
+[Client 1] O número 964 não é primo, não está presente no arquivo, e foi inserido na linha 183
+[Client 1] O número 67 é primo, e já se encontra no arquivo na linha 74
+[Client 1] O número 613 é primo, não está presente no arquivo, e foi inserido na linha 186
+[Client 1] O número 53 é primo, não está presente no arquivo, e foi inserido na linha 187
+[Client 1] O número 28 não é primo, não está presente no arquivo, e foi inserido na linha 189
+[Client 1] O número 556 não é primo, não está presente no arquivo, e foi inserido na linha 191
+[Client 1] O número 294 não é primo, e já se encontra no arquivo na linha 128
+[Client 1] O número 944 não é primo, não está presente no arquivo, e foi inserido na linha 194
+[Client 1] O número 550 não é primo, não está presente no arquivo, e foi inserido na linha 196
+[Client 1] O número 186 não é primo, e já se encontra no arquivo na linha 96
+[Client 1] O número 450 não é primo, e já se encontra no arquivo na linha 53
+[Client 1] O número 947 é primo, não está presente no arquivo, e foi inserido na linha 200
+[Client 1] O número 925 não é primo, não está presente no arquivo, e foi inserido na linha 202
+[Client 1] O número 347 é primo, não está presente no arquivo, e foi inserido na linha 203
+[Client 1] O número 639 não é primo, não está presente no arquivo, e foi inserido na linha 205
+[Client 1] O número 823 é primo, não está presente no arquivo, e foi inserido na linha 206
+[Client 1] O número 965 não é primo, e já se encontra no arquivo na linha 22
+[Client 1] O número 846 não é primo, não está presente no arquivo, e foi inserido na linha 208
+[Client 1] O número 459 não é primo, não está presente no arquivo, e foi inserido na linha 209
+[Client 1] O número 695 não é primo, não está presente no arquivo, e foi inserido na linha 211
+[Client 1] O número 970 não é primo, não está presente no arquivo, e foi inserido na linha 213
+[Client 1] O número 177 não é primo, não está presente no arquivo, e foi inserido na linha 214
+[Client 1] O número 700 não é primo, não está presente no arquivo, e foi inserido na linha 217
+[Client 1] O número 630 não é primo, não está presente no arquivo, e foi inserido na linha 219
+[Client 1] O número 130 não é primo, não está presente no arquivo, e foi inserido na linha 221
+[Client 1] O número 222 não é primo, não está presente no arquivo, e foi inserido na linha 222
+[Client 1] O número 710 não é primo, e já se encontra no arquivo na linha 78
+[Client 1] O número 80 não é primo, não está presente no arquivo, e foi inserido na linha 224
+[Client 1] O número 753 não é primo, e já se encontra no arquivo na linha 54
+[Client 1] O número 958 não é primo, e já se encontra no arquivo na linha 152
+[Client 1] O número 292 não é primo, e já se encontra no arquivo na linha 65
+[Client 1] O número 371 não é primo, e já se encontra no arquivo na linha 144
+[Client 1] O número 807 não é primo, e já se encontra no arquivo na linha 181
+[Client 1] O número 893 não é primo, não está presente no arquivo, e foi inserido na linha 228
+[Client 1] O número 895 não é primo, não está presente no arquivo, e foi inserido na linha 229
+[Client 1] O número 623 não é primo, e já se encontra no arquivo na linha 71
+[Client 1] O número 733 é primo, e já se encontra no arquivo na linha 85
+[Client 1] O número 621 não é primo, não está presente no arquivo, e foi inserido na linha 232
+[Client 1] O número 660 não é primo, e já se encontra no arquivo na linha 162
+[Client 1] O número 369 não é primo, e já se encontra no arquivo na linha 70
+[Client 1] O número 729 não é primo, e já se encontra no arquivo na linha 28
+[Client 1] O número 513 não é primo, não está presente no arquivo, e foi inserido na linha 238
+[Client 1] O número 117 não é primo, não está presente no arquivo, e foi inserido na linha 240
+[Client 1] O número 98 não é primo, não está presente no arquivo, e foi inserido na linha 241
+[Client 1] O número 76 não é primo, não está presente no arquivo, e foi inserido na linha 243
+[Client 1] O número 10 não é primo, não está presente no arquivo, e foi inserido na linha 245
+[Client 1] O número 310 não é primo, não está presente no arquivo, e foi inserido na linha 247
+[Client 1] O número 24 não é primo, não está presente no arquivo, e foi inserido na linha 249
+[Client 1] O número 346 não é primo, não está presente no arquivo, e foi inserido na linha 251
+[Client 1] O número 697 não é primo, e já se encontra no arquivo na linha 120
+[Client 1] O número 71 é primo, e já se encontra no arquivo na linha 180
+[Client 1] O número 210 não é primo, e já se encontra no arquivo na linha 1
+[Client 1] O número 785 não é primo, não está presente no arquivo, e foi inserido na linha 254
+[Client 1] O número 92 não é primo, não está presente no arquivo, e foi inserido na linha 256
+[Client 1] O número 970 não é primo, e já se encontra no arquivo na linha 213
+[Client 1] O número 309 não é primo, não está presente no arquivo, e foi inserido na linha 259
+[Client 1] O número 446 não é primo, e já se encontra no arquivo na linha 156
+[Client 1] O número 540 não é primo, não está presente no arquivo, e foi inserido na linha 261
+[Client 1] O número 107 é primo, não está presente no arquivo, e foi inserido na linha 262
+[Client 1] O número 316 não é primo, não está presente no arquivo, e foi inserido na linha 264
+[Client 1] O número 423 não é primo, não está presente no arquivo, e foi inserido na linha 266
+[Client 1] O número 118 não é primo, não está presente no arquivo, e foi inserido na linha 268
+[Client 1] O número 759 não é primo, não está presente no arquivo, e foi inserido na linha 269
+[Client 1] O número 465 não é primo, não está presente no arquivo, e foi inserido na linha 271
+[Client 1] O número 582 não é primo, não está presente no arquivo, e foi inserido na linha 272
+[Client 1] O número 8 não é primo, não está presente no arquivo, e foi inserido na linha 273
+[Client 1] O número 866 não é primo, e já se encontra no arquivo na linha 50
+[Client 1] O número 608 não é primo, não está presente no arquivo, e foi inserido na linha 276
+[Client 1] O número 674 não é primo, não está presente no arquivo, e foi inserido na linha 279
+[Client 1] O número 454 não é primo, e já se encontra no arquivo na linha 125
+[Client 1] O número 430 não é primo, não está presente no arquivo, e foi inserido na linha 281
+[Client 1] O número 844 não é primo, não está presente no arquivo, e foi inserido na linha 283
+[Client 1] O número 538 não é primo, não está presente no arquivo, e foi inserido na linha 286
+[Client 1] O número 12 não é primo, não está presente no arquivo, e foi inserido na linha 287
+[Client 1] O número 394 não é primo, não está presente no arquivo, e foi inserido na linha 288
+[Client 1] O número 739 é primo, e já se encontra no arquivo na linha 142
+[Client 1] O número 398 não é primo, não está presente no arquivo, e foi inserido na linha 291
+[Client 1] O número 763 não é primo, não está presente no arquivo, e foi inserido na linha 293
+[Client 1] O número 937 é primo, e já se encontra no arquivo na linha 267
+[Client 1] O número 739 é primo, e já se encontra no arquivo na linha 142
+[Client 1] O número 837 não é primo, não está presente no arquivo, e foi inserido na linha 296
+[Client 1] O número 160 não é primo, não está presente no arquivo, e foi inserido na linha 298
+[Client 1] O número 901 não é primo, não está presente no arquivo, e foi inserido na linha 299
+[Client 1] O número 987 não é primo, não está presente no arquivo, e foi inserido na linha 300
+[Client 1] O número 747 não é primo, não está presente no arquivo, e foi inserido na linha 302
+[Client 1] O número 941 é primo, não está presente no arquivo, e foi inserido na linha 304
+[Client 1] O número 464 não é primo, não está presente no arquivo, e foi inserido na linha 305
+[Client 1] O número 950 não é primo, não está presente no arquivo, e foi inserido na linha 306
+[Client 1] O número 24 não é primo, e já se encontra no arquivo na linha 249
+[Client 1] O número 641 é primo, não está presente no arquivo, e foi inserido na linha 308
+[Client 1] O número 460 não é primo, não está presente no arquivo, e foi inserido na linha 311
+[Client 1] O número 46 não é primo, não está presente no arquivo, e foi inserido na linha 312
+[Client 1] O número 964 não é primo, e já se encontra no arquivo na linha 183
+[Client 1] O número 350 não é primo, não está presente no arquivo, e foi inserido na linha 315
+[Client 1] O número 54 não é primo, não está presente no arquivo, e foi inserido na linha 316
+[Client 1] O número 83 é primo, e já se encontra no arquivo na linha 303
+[Client 1] O número 134 não é primo, não está presente no arquivo, e foi inserido na linha 319
+[Client 1] O número 395 não é primo, não está presente no arquivo, e foi inserido na linha 320
+[Client 1] O número 287 não é primo, e já se encontra no arquivo na linha 139
+[Client 1] O número 742 não é primo, não está presente no arquivo, e foi inserido na linha 324
+[Client 1] O número 440 não é primo, não está presente no arquivo, e foi inserido na linha 325
+[Client 1] O número 752 não é primo, e já se encontra no arquivo na linha 97
+[Client 1] O número 47 é primo, não está presente no arquivo, e foi inserido na linha 327
+[Client 1] O número 637 não é primo, e já se encontra no arquivo na linha 60
+[Client 1] O número 385 não é primo, não está presente no arquivo, e foi inserido na linha 329
+[Client 1] O número 917 não é primo, não está presente no arquivo, e foi inserido na linha 331
+[Client 1] O número 662 não é primo, e já se encontra no arquivo na linha 63
+[Client 1] O número 318 não é primo, não está presente no arquivo, e foi inserido na linha 332
+[Client 1] O número 877 é primo, não está presente no arquivo, e foi inserido na linha 334
+[Client 1] O número 194 não é primo, e já se encontra no arquivo na linha 15
+[Client 1] O número 631 é primo, e já se encontra no arquivo na linha 48
+[Client 1] O número 203 não é primo, não está presente no arquivo, e foi inserido na linha 336
+[Client 1] O número 812 não é primo, não está presente no arquivo, e foi inserido na linha 338
+[Client 1] O número 407 não é primo, não está presente no arquivo, e foi inserido na linha 339
+[Client 1] O número 264 não é primo, e já se encontra no arquivo na linha 310
+[Client 1] O número 352 não é primo, não está presente no arquivo, e foi inserido na linha 341
+[Client 1] O número 982 não é primo, não está presente no arquivo, e foi inserido na linha 342
+[Client 1] O número 983 é primo, não está presente no arquivo, e foi inserido na linha 344
+[Client 1] O número 634 não é primo, não está presente no arquivo, e foi inserido na linha 345
+[Client 1] O número 84 não é primo, não está presente no arquivo, e foi inserido na linha 346
+[Client 1] O número 33 não é primo, não está presente no arquivo, e foi inserido na linha 348
+[Client 1] O número 840 não é primo, não está presente no arquivo, e foi inserido na linha 349
+[Client 1] O número 744 não é primo, não está presente no arquivo, e foi inserido na linha 351
+[Client 1] O número 992 não é primo, não está presente no arquivo, e foi inserido na linha 353
+[Client 1] O número 901 não é primo, e já se encontra no arquivo na linha 299
+[Client 1] O número 834 não é primo, não está presente no arquivo, e foi inserido na linha 357
+[Client 1] O número 985 não é primo, e já se encontra no arquivo na linha 136
+[Client 1] O número 108 não é primo, não está presente no arquivo, e foi inserido na linha 359
+[Client 1] O número 361 não é primo, não está presente no arquivo, e foi inserido na linha 361
+[Client 1] O número 551 não é primo, e já se encontra no arquivo na linha 242
+[Client 1] O número 575 não é primo, não está presente no arquivo, e foi inserido na linha 363
+[Client 1] O número 410 não é primo, não está presente no arquivo, e foi inserido na linha 364
+[Client 1] O número 494 não é primo, e já se encontra no arquivo na linha 67
+[Client 1] O número 985 não é primo, e já se encontra no arquivo na linha 136
+[Client 1] O número 148 não é primo, não está presente no arquivo, e foi inserido na linha 368
+[Client 1] O número 792 não é primo, e já se encontra no arquivo na linha 143
+[Client 1] O número 23 é primo, não está presente no arquivo, e foi inserido na linha 370
+[Client 1] O número 263 é primo, não está presente no arquivo, e foi inserido na linha 372
+[Client 1] O número 990 não é primo, não está presente no arquivo, e foi inserido na linha 374
+[Client 1] O número 274 não é primo, e já se encontra no arquivo na linha 124
+[Client 1] O número 37 é primo, e já se encontra no arquivo na linha 237
+[Client 1] O número 337 é primo, não está presente no arquivo, e foi inserido na linha 377
+[Client 1] O número 216 não é primo, e já se encontra no arquivo na linha 199
+[Client 1] O número 432 não é primo, não está presente no arquivo, e foi inserido na linha 379
+[Client 1] O número 57 não é primo, não está presente no arquivo, e foi inserido na linha 380
+[Client 1] O número 126 não é primo, não está presente no arquivo, e foi inserido na linha 382
+[Client 1] O número 290 não é primo, e já se encontra no arquivo na linha 19
+[Client 1] O número 448 não é primo, não está presente no arquivo, e foi inserido na linha 385
+[Client 1] O número 371 não é primo, e já se encontra no arquivo na linha 144
+[Client 1] O número 76 não é primo, e já se encontra no arquivo na linha 243
+[Client 1] O número 857 é primo, não está presente no arquivo, e foi inserido na linha 389
+[Client 1] O número 516 não é primo, não está presente no arquivo, e foi inserido na linha 391
+[Client 1] O número 335 não é primo, e já se encontra no arquivo na linha 275
+[Client 1] O número 733 é primo, e já se encontra no arquivo na linha 85
+[Client 1] O número 378 não é primo, não está presente no arquivo, e foi inserido na linha 394
+[Client 1] O número 569 é primo, não está presente no arquivo, e foi inserido na linha 396
+[Client 1] O número 246 não é primo, não está presente no arquivo, e foi inserido na linha 397
+[Client 1] O número 127 é primo, e já se encontra no arquivo na linha 43
+[Client 1] O número 605 não é primo, não está presente no arquivo, e foi inserido na linha 400
+[Client 1] O número 204 não é primo, e já se encontra no arquivo na linha 38
+[Client 1] O número 76 não é primo, e já se encontra no arquivo na linha 243
+[Client 1] O número 282 não é primo, não está presente no arquivo, e foi inserido na linha 402
+[Client 1] O número 418 não é primo, não está presente no arquivo, e foi inserido na linha 404
+[Client 1] O número 687 não é primo, não está presente no arquivo, e foi inserido na linha 405
+[Client 1] O número 813 não é primo, não está presente no arquivo, e foi inserido na linha 406
+[Client 1] O número 238 não é primo, não está presente no arquivo, e foi inserido na linha 408
+[Client 1] O número 178 não é primo, não está presente no arquivo, e foi inserido na linha 410
+[Client 1] O número 100 não é primo, e já se encontra no arquivo na linha 153
+[Client 1] O número 849 não é primo, não está presente no arquivo, e foi inserido na linha 412
+[Client 1] O número 627 não é primo, não está presente no arquivo, e foi inserido na linha 414
+[Client 1] O número 522 não é primo, e já se encontra no arquivo na linha 176
+[Client 1] O número 167 é primo, não está presente no arquivo, e foi inserido na linha 416
+[Client 1] O número 272 não é primo, não está presente no arquivo, e foi inserido na linha 418
+[Client 1] O número 809 é primo, não está presente no arquivo, e foi inserido na linha 419
+[Client 1] O número 863 é primo, não está presente no arquivo, e foi inserido na linha 420
+[Client 1] O número 170 não é primo, não está presente no arquivo, e foi inserido na linha 422
+[Client 1] O número 882 não é primo, não está presente no arquivo, e foi inserido na linha 423
+[Client 1] O número 664 não é primo, não está presente no arquivo, e foi inserido na linha 426
+[Client 1] O número 475 não é primo, não está presente no arquivo, e foi inserido na linha 427
+[Client 1] O número 760 não é primo, não está presente no arquivo, e foi inserido na linha 429
+[Client 1] O número 434 não é primo, não está presente no arquivo, e foi inserido na linha 431
+[Client 1] O número 824 não é primo, não está presente no arquivo, e foi inserido na linha 433
+[Client 1] O número 653 é primo, e já se encontra no arquivo na linha 123
+[Client 1] O número 954 não é primo, e já se encontra no arquivo na linha 252
+[Client 1] O número 1 não é primo, não está presente no arquivo, e foi inserido na linha 435
+[Client 1] O número 649 não é primo, não está presente no arquivo, e foi inserido na linha 437
+[Client 1] O número 858 não é primo, e já se encontra no arquivo na linha 318
+[Client 1] O número 347 é primo, e já se encontra no arquivo na linha 203
+[Client 1] O número 633 não é primo, não está presente no arquivo, e foi inserido na linha 440
+[Client 1] O número 551 não é primo, e já se encontra no arquivo na linha 242
+[Client 1] O número 826 não é primo, e já se encontra no arquivo na linha 127
+[Client 1] O número 125 não é primo, não está presente no arquivo, e foi inserido na linha 443
+[Client 1] O número 225 não é primo, não está presente no arquivo, e foi inserido na linha 444
+[Client 1] O número 72 não é primo, não está presente no arquivo, e foi inserido na linha 445
+[Client 1] O número 441 não é primo, não está presente no arquivo, e foi inserido na linha 447
+[Client 1] O número 600 não é primo, não está presente no arquivo, e foi inserido na linha 449
+[Client 1] O número 812 não é primo, e já se encontra no arquivo na linha 338
+[Client 1] O número 546 não é primo, não está presente no arquivo, e foi inserido na linha 452
+[Client 1] O número 184 não é primo, e já se encontra no arquivo na linha 350
+[Client 1] O número 978 não é primo, não está presente no arquivo, e foi inserido na linha 454
+[Client 1] O número 174 não é primo, e já se encontra no arquivo na linha 185
+[Client 1] O número 835 não é primo, e já se encontra no arquivo na linha 356
+[Client 1] O número 39 não é primo, não está presente no arquivo, e foi inserido na linha 458
+[Client 1] O número 15 não é primo, não está presente no arquivo, e foi inserido na linha 460
+[Client 1] O número 927 não é primo, não está presente no arquivo, e foi inserido na linha 462
+[Client 1] O número 958 não é primo, e já se encontra no arquivo na linha 152
+[Client 1] O número 552 não é primo, e já se encontra no arquivo na linha 201
+[Client 1] O número 46 não é primo, e já se encontra no arquivo na linha 312
+[Client 1] O número 994 não é primo, não está presente no arquivo, e foi inserido na linha 465
+[Client 1] O número 287 não é primo, e já se encontra no arquivo na linha 139
+[Client 1] O número 372 não é primo, não está presente no arquivo, e foi inserido na linha 467
+[Client 1] O número 999 não é primo, não está presente no arquivo, e foi inserido na linha 468
+[Client 1] O número 38 não é primo, e já se encontra no arquivo na linha 7
+[Client 1] O número 157 é primo, não está presente no arquivo, e foi inserido na linha 470
+[Client 1] O número 571 é primo, não está presente no arquivo, e foi inserido na linha 471
+[Client 1] O número 37 é primo, e já se encontra no arquivo na linha 237
+[Client 1] O número 565 não é primo, não está presente no arquivo, e foi inserido na linha 474
+[Client 1] O número 547 é primo, não está presente no arquivo, e foi inserido na linha 475
+[Client 1] O número 913 não é primo, não está presente no arquivo, e foi inserido na linha 477
+[Client 1] O número 758 não é primo, não está presente no arquivo, e foi inserido na linha 479
+[Client 1] O número 707 não é primo, e já se encontra no arquivo na linha 109
+[Client 1] O número 192 não é primo, não está presente no arquivo, e foi inserido na linha 481
+[Client 1] O número 30 não é primo, não está presente no arquivo, e foi inserido na linha 483
+[Client 1] O número 597 não é primo, não está presente no arquivo, e foi inserido na linha 485
+[Client 1] O número 367 é primo, e já se encontra no arquivo na linha 457
+[Client 1] O número 568 não é primo, não está presente no arquivo, e foi inserido na linha 487
+[Client 1] O número 544 não é primo, não está presente no arquivo, e foi inserido na linha 489
+[Client 1] O número 813 não é primo, e já se encontra no arquivo na linha 406
+[Client 1] O número 45 não é primo, não está presente no arquivo, e foi inserido na linha 491
+[Client 1] O número 594 não é primo, não está presente no arquivo, e foi inserido na linha 492
+[Client 1] O número 217 não é primo, e já se encontra no arquivo na linha 135
+[Client 1] O número 440 não é primo, e já se encontra no arquivo na linha 325
+[Client 1] O número 874 não é primo, e já se encontra no arquivo na linha 195
+[Client 1] O número 783 não é primo, não está presente no arquivo, e foi inserido na linha 495
+[Client 1] O número 45 não é primo, e já se encontra no arquivo na linha 491
+[Client 1] O número 193 é primo, não está presente no arquivo, e foi inserido na linha 498
+[Client 1] O número 91 não é primo, não está presente no arquivo, e foi inserido na linha 499
+[Client 1] O número 912 não é primo, e já se encontra no arquivo na linha 13
+[Client 1] O número 950 não é primo, e já se encontra no arquivo na linha 306
+[Client 1] O número 902 não é primo, e já se encontra no arquivo na linha 95
+[Client 1] O número 327 não é primo, não está presente no arquivo, e foi inserido na linha 502
+[Client 1] O número 356 não é primo, não está presente no arquivo, e foi inserido na linha 503
+[Client 1] O número 565 não é primo, e já se encontra no arquivo na linha 474
+[Client 1] O número 31 é primo, não está presente no arquivo, e foi inserido na linha 505
+[Client 1] O número 166 não é primo, e já se encontra no arquivo na linha 106
+[Client 1] O número 286 não é primo, não está presente no arquivo, e foi inserido na linha 508
+[Client 1] O número 231 não é primo, não está presente no arquivo, e foi inserido na linha 509
+[Client 1] O número 246 não é primo, e já se encontra no arquivo na linha 397
+[Client 1] O número 228 não é primo, e já se encontra no arquivo na linha 223
+[Client 1] O número 820 não é primo, e já se encontra no arquivo na linha 388
+[Client 1] O número 888 não é primo, não está presente no arquivo, e foi inserido na linha 512
+[Client 1] O número 963 não é primo, não está presente no arquivo, e foi inserido na linha 514
+[Client 1] O número 744 não é primo, e já se encontra no arquivo na linha 351
+[Client 1] O número 915 não é primo, não está presente no arquivo, e foi inserido na linha 515
+[Client 1] O número 780 não é primo, não está presente no arquivo, e foi inserido na linha 516
+[Client 1] O número 764 não é primo, não está presente no arquivo, e foi inserido na linha 518
+[Client 1] O número 43 é primo, e já se encontra no arquivo na linha 434
+[Client 1] O número 382 não é primo, não está presente no arquivo, e foi inserido na linha 521
+[Client 1] O número 750 não é primo, não está presente no arquivo, e foi inserido na linha 522
+[Client 1] O número 588 não é primo, não está presente no arquivo, e foi inserido na linha 523
+[Client 1] O número 697 não é primo, e já se encontra no arquivo na linha 120
+[Client 1] O número 35 não é primo, não está presente no arquivo, e foi inserido na linha 524
+[Client 1] O número 660 não é primo, e já se encontra no arquivo na linha 162
+[Client 1] O número 595 não é primo, não está presente no arquivo, e foi inserido na linha 526
+[Client 1] O número 560 não é primo, não está presente no arquivo, e foi inserido na linha 527
+[Client 1] O número 695 não é primo, e já se encontra no arquivo na linha 211
+[Client 1] O número 803 não é primo, e já se encontra no arquivo na linha 115
+[Client 1] O número 673 é primo, e já se encontra no arquivo na linha 21
+[Client 1] O número 432 não é primo, e já se encontra no arquivo na linha 379
+[Client 1] O número 54 não é primo, e já se encontra no arquivo na linha 316
+[Client 1] O número 594 não é primo, e já se encontra no arquivo na linha 492
+[Client 1] O número 488 não é primo, não está presente no arquivo, e foi inserido na linha 530
+[Client 1] O número 571 é primo, e já se encontra no arquivo na linha 471
+[Client 1] O número 206 não é primo, não está presente no arquivo, e foi inserido na linha 532
+[Client 1] O número 413 não é primo, não está presente no arquivo, e foi inserido na linha 534
+[Client 1] O número 280 não é primo, não está presente no arquivo, e foi inserido na linha 536
+[Client 1] O número 76 não é primo, e já se encontra no arquivo na linha 243
+[Client 1] O número 39 não é primo, e já se encontra no arquivo na linha 458
+[Client 1] O número 378 não é primo, e já se encontra no arquivo na linha 394
+[Client 1] O número 739 é primo, e já se encontra no arquivo na linha 142
+[Client 1] O número 782 não é primo, e já se encontra no arquivo na linha 448
+[Client 1] O número 298 não é primo, não está presente no arquivo, e foi inserido na linha 540
+[Client 1] O número 535 não é primo, não está presente no arquivo, e foi inserido na linha 541
+[Client 1] O número 351 não é primo, não está presente no arquivo, e foi inserido na linha 542
+[Client 1] O número 154 não é primo, não está presente no arquivo, e foi inserido na linha 544
+[Client 1] O número 704 não é primo, e já se encontra no arquivo na linha 253
+[Client 1] O número 238 não é primo, e já se encontra no arquivo na linha 408
+[Client 1] O número 841 não é primo, não está presente no arquivo, e foi inserido na linha 546
+[Client 1] O número 631 é primo, e já se encontra no arquivo na linha 48
+[Client 1] O número 840 não é primo, e já se encontra no arquivo na linha 349
+[Client 1] O número 59 é primo, e já se encontra no arquivo na linha 108
+[Client 1] O número 717 não é primo, não está presente no arquivo, e foi inserido na linha 548
+[Client 1] O número 650 não é primo, e já se encontra no arquivo na linha 466
+[Client 1] O número 576 não é primo, e já se encontra no arquivo na linha 263
+[Client 1] O número 252 não é primo, não está presente no arquivo, e foi inserido na linha 551
+[Client 1] O número 624 não é primo, não está presente no arquivo, e foi inserido na linha 552
+[Client 1] O número 825 não é primo, não está presente no arquivo, e foi inserido na linha 553
+[Client 1] O número 268 não é primo, não está presente no arquivo, e foi inserido na linha 554
+[Client 1] O número 225 não é primo, e já se encontra no arquivo na linha 444
+[Client 1] O número 151 é primo, e já se encontra no arquivo na linha 233
+[Client 1] O número 653 é primo, e já se encontra no arquivo na linha 123
+[Client 1] O número 422 não é primo, não está presente no arquivo, e foi inserido na linha 556
+[Client 1] O número 711 não é primo, não está presente no arquivo, e foi inserido na linha 557
+[Client 1] O número 339 não é primo, não está presente no arquivo, e foi inserido na linha 558
+[Client 1] O número 674 não é primo, e já se encontra no arquivo na linha 279
+[Client 1] O número 831 não é primo, não está presente no arquivo, e foi inserido na linha 560
+[Client 1] O número 156 não é primo, e já se encontra no arquivo na linha 549
+[Client 1] O número 633 não é primo, e já se encontra no arquivo na linha 440
+[Client 1] O número 671 não é primo, não está presente no arquivo, e foi inserido na linha 563
+[Client 1] O número 989 não é primo, não está presente no arquivo, e foi inserido na linha 564
+[Client 1] O número 905 não é primo, não está presente no arquivo, e foi inserido na linha 566
+[Client 1] O número 864 não é primo, e já se encontra no arquivo na linha 175
+[Client 1] O número 250 não é primo, não está presente no arquivo, e foi inserido na linha 568
+[Client 1] O número 865 não é primo, não está presente no arquivo, e foi inserido na linha 569
+[Client 1] O número 978 não é primo, e já se encontra no arquivo na linha 454
+[Client 1] O número 54 não é primo, e já se encontra no arquivo na linha 316
+[Client 1] O número 969 não é primo, não está presente no arquivo, e foi inserido na linha 572
+[Client 1] O número 187 não é primo, e já se encontra no arquivo na linha 270
+[Client 1] O número 861 não é primo, não está presente no arquivo, e foi inserido na linha 575
+[Client 1] O número 230 não é primo, não está presente no arquivo, e foi inserido na linha 576
+[Client 1] O número 923 não é primo, e já se encontra no arquivo na linha 501
+[Client 1] O número 226 não é primo, e já se encontra no arquivo na linha 18
+[Client 1] O número 936 não é primo, e já se encontra no arquivo na linha 561
+[Client 1] O número 828 não é primo, e já se encontra no arquivo na linha 486
+[Client 1] O número 457 é primo, e já se encontra no arquivo na linha 59
+[Client 1] O número 621 não é primo, e já se encontra no arquivo na linha 232
+[Client 1] O número 181 é primo, não está presente no arquivo, e foi inserido na linha 579
+[Client 1] O número 892 não é primo, e já se encontra no arquivo na linha 545
+[Client 1] O número 143 não é primo, não está presente no arquivo, e foi inserido na linha 582
+[Client 1] O número 866 não é primo, e já se encontra no arquivo na linha 50
+[Client 1] O número 315 não é primo, não está presente no arquivo, e foi inserido na linha 583
+[Client 1] O número 356 não é primo, e já se encontra no arquivo na linha 503
+[Client 1] O número 132 não é primo, não está presente no arquivo, e foi inserido na linha 585
+[Client 1] O número 619 é primo, não está presente no arquivo, e foi inserido na linha 587
+[Client 1] O número 695 não é primo, e já se encontra no arquivo na linha 211
+[Client 1] O número 102 não é primo, não está presente no arquivo, e foi inserido na linha 588
+[Client 1] O número 702 não é primo, não está presente no arquivo, e foi inserido na linha 589
+[Client 1] O número 851 não é primo, e já se encontra no arquivo na linha 166
+[Client 1] O número 919 é primo, e já se encontra no arquivo na linha 559
+[Client 1] O número 511 não é primo, e já se encontra no arquivo na linha 484
+[Client 1] O número 194 não é primo, e já se encontra no arquivo na linha 15
+[Client 1] O número 275 não é primo, não está presente no arquivo, e foi inserido na linha 592
+[Client 1] O número 75 não é primo, e já se encontra no arquivo na linha 328
+[Client 1] O número 913 não é primo, e já se encontra no arquivo na linha 477
+[Client 1] O número 181 é primo, e já se encontra no arquivo na linha 579
+[Client 1] O número 798 não é primo, e já se encontra no arquivo na linha 35
+[Client 1] O número 699 não é primo, não está presente no arquivo, e foi inserido na linha 595
+[Client 1] O número 571 é primo, e já se encontra no arquivo na linha 471
+[Client 1] O número 258 não é primo, não está presente no arquivo, e foi inserido na linha 596
+[Client 1] O número 262 não é primo, não está presente no arquivo, e foi inserido na linha 598
+[Client 1] O número 391 não é primo, e já se encontra no arquivo na linha 69
+[Client 1] O número 446 não é primo, e já se encontra no arquivo na linha 156
+[Client 1] O número 441 não é primo, e já se encontra no arquivo na linha 447
+[Client 1] O número 306 não é primo, não está presente no arquivo, e foi inserido na linha 601
+[Client 1] O número 802 não é primo, e já se encontra no arquivo na linha 337
+[Client 1] O número 970 não é primo, e já se encontra no arquivo na linha 213
+[Client 1] O número 311 é primo, e já se encontra no arquivo na linha 255
+[Client 1] O número 457 é primo, e já se encontra no arquivo na linha 59
+[Client 1] O número 140 não é primo, e já se encontra no arquivo na linha 517
+[Client 1] O número 212 não é primo, não está presente no arquivo, e foi inserido na linha 604
+[Client 1] O número 119 não é primo, e já se encontra no arquivo na linha 89
+[Client 1] O número 628 não é primo, e já se encontra no arquivo na linha 77
+[Client 1] O número 923 não é primo, e já se encontra no arquivo na linha 501
+[Client 1] O número 927 não é primo, e já se encontra no arquivo na linha 462
+[Client 1] O número 40 não é primo, não está presente no arquivo, e foi inserido na linha 607
+[Client 1] O número 706 não é primo, não está presente no arquivo, e foi inserido na linha 608
+[Client 1] O número 9 não é primo, e já se encontra no arquivo na linha 93
+[Client 1] O número 27 não é primo, não está presente no arquivo, e foi inserido na linha 609
+[Client 1] O número 404 não é primo, não está presente no arquivo, e foi inserido na linha 610
+[Client 1] O número 8 não é primo, e já se encontra no arquivo na linha 273
+[Client 1] O número 403 não é primo, não está presente no arquivo, e foi inserido na linha 612
+[Client 1] O número 793 não é primo, não está presente no arquivo, e foi inserido na linha 614
+[Client 1] O número 190 não é primo, não está presente no arquivo, e foi inserido na linha 616
+[Client 1] O número 727 é primo, não está presente no arquivo, e foi inserido na linha 617
+[Client 1] O número 385 não é primo, e já se encontra no arquivo na linha 329
+[Client 1] O número 751 é primo, e já se encontra no arquivo na linha 260
+[Client 1] O número 1 não é primo, e já se encontra no arquivo na linha 435
+[Client 1] O número 4 não é primo, não está presente no arquivo, e foi inserido na linha 619
+[Client 1] O número 164 não é primo, não está presente no arquivo, e foi inserido na linha 620
+[Client 1] O número 988 não é primo, não está presente no arquivo, e foi inserido na linha 621
+[Client 1] O número 433 é primo, e já se encontra no arquivo na linha 525
+[Client 1] O número 252 não é primo, e já se encontra no arquivo na linha 551
+[Client 1] O número 225 não é primo, e já se encontra no arquivo na linha 444
+[Client 1] O número 908 não é primo, não está presente no arquivo, e foi inserido na linha 623
+[Client 1] O número 249 não é primo, não está presente no arquivo, e foi inserido na linha 624
+[Client 1] O número 119 não é primo, e já se encontra no arquivo na linha 89
+[Client 1] O número 154 não é primo, e já se encontra no arquivo na linha 544
+[Client 1] O número 198 não é primo, e já se encontra no arquivo na linha 16
+[Client 1] O número 350 não é primo, e já se encontra no arquivo na linha 315
+[Client 1] O número 694 não é primo, não está presente no arquivo, e foi inserido na linha 627
+[Client 1] O número 641 é primo, e já se encontra no arquivo na linha 308
+[Client 1] O número 102 não é primo, e já se encontra no arquivo na linha 588
+[Client 1] O número 879 não é primo, não está presente no arquivo, e foi inserido na linha 630
+[Client 1] O número 797 é primo, não está presente no arquivo, e foi inserido na linha 631
+[Client 1] O número 599 é primo, não está presente no arquivo, e foi inserido na linha 633
+[Client 1] O número 293 é primo, não está presente no arquivo, e foi inserido na linha 634
+[Client 1] O número 815 não é primo, e já se encontra no arquivo na linha 110
+[Client 1] O número 567 não é primo, não está presente no arquivo, e foi inserido na linha 636
+[Client 1] O número 185 não é primo, não está presente no arquivo, e foi inserido na linha 637
+[Client 1] O número 295 não é primo, e já se encontra no arquivo na linha 26
+[Client 1] O número 654 não é primo, não está presente no arquivo, e foi inserido na linha 639
+[Client 1] O número 431 é primo, não está presente no arquivo, e foi inserido na linha 640
+[Client 1] O número 467 é primo, não está presente no arquivo, e foi inserido na linha 642
+[Client 1] O número 653 é primo, e já se encontra no arquivo na linha 123
+[Client 1] O número 29 é primo, não está presente no arquivo, e foi inserido na linha 643
+[Client 1] O número 623 não é primo, e já se encontra no arquivo na linha 71
+[Client 1] O número 607 é primo, não está presente no arquivo, e foi inserido na linha 646
+[Client 1] O número 97 é primo, não está presente no arquivo, e foi inserido na linha 647
+[Client 1] O número 922 não é primo, e já se encontra no arquivo na linha 384
+[Client 1] O número 493 não é primo, e já se encontra no arquivo na linha 75
+[Client 1] O número 632 não é primo, e já se encontra no arquivo na linha 280
+[Client 1] O número 768 não é primo, não está presente no arquivo, e foi inserido na linha 648
+[Client 1] O número 835 não é primo, e já se encontra no arquivo na linha 356
+[Client 1] O número 746 não é primo, não está presente no arquivo, e foi inserido na linha 651
+[Client 1] O número 911 é primo, e já se encontra no arquivo na linha 476
+[Client 1] O número 251 é primo, e já se encontra no arquivo na linha 453
+[Client 1] O número 130 não é primo, e já se encontra no arquivo na linha 221
+[Client 1] O número 509 é primo, não está presente no arquivo, e foi inserido na linha 654
+[Client 1] O número 223 é primo, não está presente no arquivo, e foi inserido na linha 655
+[Client 1] O número 114 não é primo, e já se encontra no arquivo na linha 116
+[Client 1] O número 539 não é primo, e já se encontra no arquivo na linha 317
+[Client 1] O número 806 não é primo, e já se encontra no arquivo na linha 428
+[Client 1] O número 925 não é primo, e já se encontra no arquivo na linha 202
+[Client 1] O número 275 não é primo, e já se encontra no arquivo na linha 592
+[Client 1] O número 432 não é primo, e já se encontra no arquivo na linha 379
+[Client 1] O número 722 não é primo, não está presente no arquivo, e foi inserido na linha 656
+[Client 1] O número 205 não é primo, não está presente no arquivo, e foi inserido na linha 657
+[Client 1] O número 963 não é primo, e já se encontra no arquivo na linha 514
+[Client 1] O número 275 não é primo, e já se encontra no arquivo na linha 592
+[Client 1] O número 441 não é primo, e já se encontra no arquivo na linha 447
+[Client 1] O número 717 não é primo, e já se encontra no arquivo na linha 548
+[Client 1] O número 376 não é primo, não está presente no arquivo, e foi inserido na linha 661
+[Client 1] O número 772 não é primo, não está presente no arquivo, e foi inserido na linha 662
+[Client 1] O número 369 não é primo, e já se encontra no arquivo na linha 70
+[Client 1] O número 116 não é primo, não está presente no arquivo, e foi inserido na linha 663
+[Client 1] O número 997 é primo, não está presente no arquivo, e foi inserido na linha 665
+[Client 1] O número 184 não é primo, e já se encontra no arquivo na linha 350
+[Client 1] O número 465 não é primo, e já se encontra no arquivo na linha 271
+[Client 1] O número 285 não é primo, e já se encontra no arquivo na linha 653
+[Client 1] O número 517 não é primo, não está presente no arquivo, e foi inserido na linha 667
+[Client 1] O número 735 não é primo, e já se encontra no arquivo na linha 226
+[Client 1] O número 990 não é primo, e já se encontra no arquivo na linha 374
+[Client 1] O número 85 não é primo, não está presente no arquivo, e foi inserido na linha 668
+[Client 1] O número 919 é primo, e já se encontra no arquivo na linha 559
+[Client 1] O número 80 não é primo, e já se encontra no arquivo na linha 224
+[Client 1] O número 933 não é primo, não está presente no arquivo, e foi inserido na linha 671
+[Client 1] O número 254 não é primo, e já se encontra no arquivo na linha 602
+[Client 1] O número 696 não é primo, e já se encontra no arquivo na linha 371
+[Client 1] O número 507 não é primo, e já se encontra no arquivo na linha 161
+[Client 1] O número 303 não é primo, não está presente no arquivo, e foi inserido na linha 672
+[Client 1] O número 186 não é primo, e já se encontra no arquivo na linha 96
+[Client 1] O número 494 não é primo, e já se encontra no arquivo na linha 67
+[Client 1] O número 270 não é primo, e já se encontra no arquivo na linha 574
+[Client 1] O número 567 não é primo, e já se encontra no arquivo na linha 636
+[Client 1] O número 499 é primo, e já se encontra no arquivo na linha 550
+[Client 1] O número 782 não é primo, e já se encontra no arquivo na linha 448
+[Client 1] O número 972 não é primo, e já se encontra no arquivo na linha 230
+[Client 1] O número 238 não é primo, e já se encontra no arquivo na linha 408
+[Client 1] O número 976 não é primo, não está presente no arquivo, e foi inserido na linha 678
+[Client 1] O número 464 não é primo, e já se encontra no arquivo na linha 305
+[Client 1] O número 307 é primo, não está presente no arquivo, e foi inserido na linha 679
+[Client 1] O número 289 não é primo, não está presente no arquivo, e foi inserido na linha 680
+[Client 1] O número 100 não é primo, e já se encontra no arquivo na linha 153
+[Client 1] O número 83 é primo, e já se encontra no arquivo na linha 303
+[Client 1] O número 988 não é primo, e já se encontra no arquivo na linha 621
+[Client 1] O número 296 não é primo, não está presente no arquivo, e foi inserido na linha 682
+[Client 1] O número 298 não é primo, e já se encontra no arquivo na linha 540
+[Client 1] O número 45 não é primo, e já se encontra no arquivo na linha 491
+[Client 1] O número 636 não é primo, não está presente no arquivo, e foi inserido na linha 683
+[Client 1] O número 4 não é primo, e já se encontra no arquivo na linha 619
+[Client 1] O número 675 não é primo, e já se encontra no arquivo na linha 425
+[Client 1] O número 568 não é primo, e já se encontra no arquivo na linha 487
+[Client 1] O número 695 não é primo, e já se encontra no arquivo na linha 211
+[Client 1] O número 871 não é primo, e já se encontra no arquivo na linha 343
+[Client 1] O número 58 não é primo, e já se encontra no arquivo na linha 673
+[Client 1] O número 191 é primo, não está presente no arquivo, e foi inserido na linha 687
+[Client 1] O número 769 é primo, e já se encontra no arquivo na linha 284
+[Client 1] O número 22 não é primo, e já se encontra no arquivo na linha 134
+[Client 1] O número 192 não é primo, e já se encontra no arquivo na linha 481
+[Client 1] O número 129 não é primo, e já se encontra no arquivo na linha 137
+[Client 1] O número 867 não é primo, e já se encontra no arquivo na linha 164
+[Client 1] O número 344 não é primo, e já se encontra no arquivo na linha 248
+[Client 1] O número 534 não é primo, não está presente no arquivo, e foi inserido na linha 691
+[Client 1] O número 736 não é primo, e já se encontra no arquivo na linha 580
+[Client 1] O número 558 não é primo, e já se encontra no arquivo na linha 645
+[Client 1] O número 940 não é primo, não está presente no arquivo, e foi inserido na linha 693
+[Client 1] O número 474 não é primo, e já se encontra no arquivo na linha 145
+[Client 1] O número 820 não é primo, e já se encontra no arquivo na linha 388
+[Client 1] O número 891 não é primo, não está presente no arquivo, e foi inserido na linha 695
+[Client 1] O número 658 não é primo, e já se encontra no arquivo na linha 133
+[Client 1] O número 921 não é primo, e já se encontra no arquivo na linha 335
+[Client 1] O número 397 é primo, e já se encontra no arquivo na linha 163
+[Client 1] O número 382 não é primo, e já se encontra no arquivo na linha 521
+[Client 1] O número 436 não é primo, não está presente no arquivo, e foi inserido na linha 697
+[Client 1] O número 297 não é primo, e já se encontra no arquivo na linha 6
+[Client 1] O número 804 não é primo, não está presente no arquivo, e foi inserido na linha 698
+[Client 1] O número 243 não é primo, e já se encontra no arquivo na linha 322
+[Client 1] O número 175 não é primo, e já se encontra no arquivo na linha 358
+[Client 1] O número 735 não é primo, e já se encontra no arquivo na linha 226
+[Client 1] O número 849 não é primo, e já se encontra no arquivo na linha 412
+[Client 1] O número 337 é primo, e já se encontra no arquivo na linha 377
+[Client 1] O número 358 não é primo, e já se encontra no arquivo na linha 198
+[Client 1] O número 220 não é primo, e já se encontra no arquivo na linha 401
+[Client 1] O número 739 é primo, e já se encontra no arquivo na linha 142
+[Client 1] O número 947 é primo, e já se encontra no arquivo na linha 200
+[Client 1] O número 839 é primo, e já se encontra no arquivo na linha 5
+[Client 1] O número 796 não é primo, e já se encontra no arquivo na linha 393
+[Client 1] O número 977 é primo, e já se encontra no arquivo na linha 593
+[Client 1] O número 534 não é primo, e já se encontra no arquivo na linha 691
+[Client 1] O número 103 é primo, não está presente no arquivo, e foi inserido na linha 699
+[Client 1] O número 982 não é primo, e já se encontra no arquivo na linha 342
+[Client 1] O número 149 é primo, não está presente no arquivo, e foi inserido na linha 701
+[Client 1] O número 596 não é primo, e já se encontra no arquivo na linha 64
+[Client 1] O número 983 é primo, e já se encontra no arquivo na linha 344
+[Client 1] O número 372 não é primo, e já se encontra no arquivo na linha 467
+[Client 1] O número 861 não é primo, e já se encontra no arquivo na linha 575
+[Client 1] O número 620 não é primo, e já se encontra no arquivo na linha 207
+[Client 1] O número 392 não é primo, não está presente no arquivo, e foi inserido na linha 704
+[Client 1] O número 499 é primo, e já se encontra no arquivo na linha 550
+[Client 1] O número 570 não é primo, não está presente no arquivo, e foi inserido na linha 705
+[Client 1] O número 281 é primo, e já se encontra no arquivo na linha 438
+[Client 1] O número 703 não é primo, não está presente no arquivo, e foi inserido na linha 708
+[Client 1] O número 354 não é primo, e já se encontra no arquivo na linha 80
+[Client 1] O número 185 não é primo, e já se encontra no arquivo na linha 637
+[Client 1] O número 388 não é primo, e já se encontra no arquivo na linha 480
+[Client 1] O número 746 não é primo, e já se encontra no arquivo na linha 651
+[Client 1] O número 495 não é primo, não está presente no arquivo, e foi inserido na linha 711
+[Client 1] O número 453 não é primo, e já se encontra no arquivo na linha 92
+[Client 1] O número 657 não é primo, e já se encontra no arquivo na linha 17
+[Client 1] O número 323 não é primo, e já se encontra no arquivo na linha 567
+[Client 1] O número 332 não é primo, não está presente no arquivo, e foi inserido na linha 714
+[Client 1] O número 219 não é primo, não está presente no arquivo, e foi inserido na linha 715
+[Client 1] O número 554 não é primo, não está presente no arquivo, e foi inserido na linha 716
+[Client 1] O número 108 não é primo, e já se encontra no arquivo na linha 359
+[Client 1] O número 664 não é primo, e já se encontra no arquivo na linha 426
+[Client 1] O número 433 é primo, e já se encontra no arquivo na linha 525
+[Client 1] O número 918 não é primo, não está presente no arquivo, e foi inserido na linha 719
+[Client 1] O número 1000 não é primo, e já se encontra no arquivo na linha 685
+[Client 1] O número 12 não é primo, e já se encontra no arquivo na linha 287
+[Client 1] O número 868 não é primo, e já se encontra no arquivo na linha 3
+[Client 1] O número 176 não é primo, não está presente no arquivo, e foi inserido na linha 720
+[Client 1] O número 997 é primo, e já se encontra no arquivo na linha 665
+[Client 1] O número 435 não é primo, e já se encontra no arquivo na linha 42
+[Client 1] O número 422 não é primo, e já se encontra no arquivo na linha 556
+[Client 1] O número 945 não é primo, não está presente no arquivo, e foi inserido na linha 723
+[Client 1] O número 77 não é primo, e já se encontra no arquivo na linha 82
+[Client 1] O número 609 não é primo, não está presente no arquivo, e foi inserido na linha 724
+[Client 1] O número 885 não é primo, não está presente no arquivo, e foi inserido na linha 726
+[Client 1] O número 344 não é primo, e já se encontra no arquivo na linha 248
+[Client 1] O número 32 não é primo, e já se encontra no arquivo na linha 265
+[Client 1] O número 386 não é primo, não está presente no arquivo, e foi inserido na linha 728
+[Client 1] O número 767 não é primo, e já se encontra no arquivo na linha 321
+[Client 1] O número 760 não é primo, e já se encontra no arquivo na linha 429
+[Client 1] O número 425 não é primo, e já se encontra no arquivo na linha 519
+[Client 1] O número 71 é primo, e já se encontra no arquivo na linha 180
+[Client 1] O número 274 não é primo, e já se encontra no arquivo na linha 124
+[Client 1] O número 363 não é primo, não está presente no arquivo, e foi inserido na linha 730
+[Client 1] O número 729 não é primo, e já se encontra no arquivo na linha 28
+[Client 1] O número 474 não é primo, e já se encontra no arquivo na linha 145
+[Client 1] O número 348 não é primo, e já se encontra no arquivo na linha 37
+[Client 1] O número 140 não é primo, e já se encontra no arquivo na linha 517
+[Client 1] O número 602 não é primo, e já se encontra no arquivo na linha 178
+[Client 1] O número 810 não é primo, e já se encontra no arquivo na linha 615
+[Client 1] O número 515 não é primo, e já se encontra no arquivo na linha 150
+[Client 1] O número 979 não é primo, não está presente no arquivo, e foi inserido na linha 735
+[Client 1] O número 802 não é primo, e já se encontra no arquivo na linha 337
+[Client 1] O número 439 é primo, não está presente no arquivo, e foi inserido na linha 737
+[Client 1] O número 600 não é primo, e já se encontra no arquivo na linha 449
+[Client 1] O número 373 é primo, e já se encontra no arquivo na linha 79
+[Client 1] O número 660 não é primo, e já se encontra no arquivo na linha 162
+[Client 1] O número 1 não é primo, e já se encontra no arquivo na linha 435
+[Client 1] O número 881 é primo, e já se encontra no arquivo na linha 218
+[Client 1] O número 776 não é primo, não está presente no arquivo, e foi inserido na linha 741
+[Client 1] O número 701 é primo, não está presente no arquivo, e foi inserido na linha 742
+[Client 1] O número 192 não é primo, e já se encontra no arquivo na linha 481
+[Client 1] O número 481 não é primo, não está presente no arquivo, e foi inserido na linha 743
+[Client 1] O número 138 não é primo, e já se encontra no arquivo na linha 644
+[Client 1] O número 26 não é primo, não está presente no arquivo, e foi inserido na linha 744
+[Client 1] O número 255 não é primo, não está presente no arquivo, e foi inserido na linha 745
+[Client 1] O número 325 não é primo, e já se encontra no arquivo na linha 31
+[Client 1] O número 897 não é primo, não está presente no arquivo, e foi inserido na linha 747
+[Client 1] O número 400 não é primo, e já se encontra no arquivo na linha 313
+[Client 1] O número 246 não é primo, e já se encontra no arquivo na linha 397
+[Client 1] O número 233 é primo, não está presente no arquivo, e foi inserido na linha 750
+[Client 1] O número 33 não é primo, e já se encontra no arquivo na linha 348
+[Client 1] O número 269 é primo, e já se encontra no arquivo na linha 61
+[Client 1] O número 829 é primo, e já se encontra no arquivo na linha 669
+[Client 1] O número 682 não é primo, não está presente no arquivo, e foi inserido na linha 752
+[Client 1] O número 989 não é primo, e já se encontra no arquivo na linha 564
+[Client 1] O número 406 não é primo, e já se encontra no arquivo na linha 132
+[Client 1] O número 325 não é primo, e já se encontra no arquivo na linha 31
+[Client 1] O número 552 não é primo, e já se encontra no arquivo na linha 201
+[Client 1] O número 662 não é primo, e já se encontra no arquivo na linha 63
+[Client 1] O número 626 não é primo, e já se encontra no arquivo na linha 670
+[Client 1] O número 373 é primo, e já se encontra no arquivo na linha 79
+[Client 1] O número 401 é primo, e já se encontra no arquivo na linha 34
+[Client 1] O número 574 não é primo, não está presente no arquivo, e foi inserido na linha 755
+[Client 1] O número 448 não é primo, e já se encontra no arquivo na linha 385
+[Client 1] O número 403 não é primo, e já se encontra no arquivo na linha 612
+[Client 1] O número 394 não é primo, e já se encontra no arquivo na linha 288
+[Client 1] O número 4 não é primo, e já se encontra no arquivo na linha 619
+[Client 1] O número 759 não é primo, e já se encontra no arquivo na linha 269
+[Client 1] O número 375 não é primo, e já se encontra no arquivo na linha 381
+[Client 1] O número 236 não é primo, e já se encontra no arquivo na linha 407
+[Client 1] O número 47 é primo, e já se encontra no arquivo na linha 327
+[Client 1] O número 650 não é primo, e já se encontra no arquivo na linha 466
+[Client 1] O número 608 não é primo, e já se encontra no arquivo na linha 276
+[Client 1] O número 770 não é primo, e já se encontra no arquivo na linha 138
+[Client 1] O número 696 não é primo, e já se encontra no arquivo na linha 371
+[Client 1] O número 539 não é primo, e já se encontra no arquivo na linha 317
+[Client 1] O número 599 é primo, e já se encontra no arquivo na linha 633
+[Client 1] O número 451 não é primo, e já se encontra no arquivo na linha 658
+[Client 1] O número 807 não é primo, e já se encontra no arquivo na linha 181
+[Client 1] O número 306 não é primo, e já se encontra no arquivo na linha 601
+[Client 1] O número 100 não é primo, e já se encontra no arquivo na linha 153
+[Client 1] O número 957 não é primo, não está presente no arquivo, e foi inserido na linha 759
+[Client 1] O número 218 não é primo, e já se encontra no arquivo na linha 446
+[Client 1] O número 442 não é primo, e já se encontra no arquivo na linha 688
+[Client 1] O número 758 não é primo, e já se encontra no arquivo na linha 479
+[Client 1] O número 611 não é primo, não está presente no arquivo, e foi inserido na linha 760
+[Client 1] O número 722 não é primo, e já se encontra no arquivo na linha 656
+[Client 1] O número 931 não é primo, e já se encontra no arquivo na linha 721
+[Client 1] O número 142 não é primo, não está presente no arquivo, e foi inserido na linha 761
+[Client 1] O número 429 não é primo, não está presente no arquivo, e foi inserido na linha 762
+[Client 1] O número 581 não é primo, não está presente no arquivo, e foi inserido na linha 763
+[Client 1] O número 808 não é primo, e já se encontra no arquivo na linha 182
+[Client 1] O número 994 não é primo, e já se encontra no arquivo na linha 465
+[Client 1] O número 507 não é primo, e já se encontra no arquivo na linha 161
+[Client 1] O número 470 não é primo, e já se encontra no arquivo na linha 46
+[Client 1] O número 888 não é primo, e já se encontra no arquivo na linha 512
+[Client 1] O número 415 não é primo, e já se encontra no arquivo na linha 450
+[Client 1] O número 864 não é primo, e já se encontra no arquivo na linha 175
+[Client 1] O número 464 não é primo, e já se encontra no arquivo na linha 305
+[Client 1] O número 830 não é primo, e já se encontra no arquivo na linha 157
+[Client 1] O número 80 não é primo, e já se encontra no arquivo na linha 224
+[Client 1] O número 66 não é primo, e já se encontra no arquivo na linha 301
+[Client 1] O número 387 não é primo, não está presente no arquivo, e foi inserido na linha 766
+[Client 1] O número 931 não é primo, e já se encontra no arquivo na linha 721
+[Client 1] O número 772 não é primo, e já se encontra no arquivo na linha 662
+[Client 1] O número 486 não é primo, e já se encontra no arquivo na linha 573
+[Client 1] O número 423 não é primo, e já se encontra no arquivo na linha 266
+[Client 1] O número 996 não é primo, não está presente no arquivo, e foi inserido na linha 768
+[Client 1] O número 133 não é primo, e já se encontra no arquivo na linha 290
+[Client 1] O número 801 não é primo, não está presente no arquivo, e foi inserido na linha 769
+[Client 1] O número 480 não é primo, não está presente no arquivo, e foi inserido na linha 771
+[Client 1] O número 289 não é primo, e já se encontra no arquivo na linha 680
+[Client 1] O número 461 é primo, não está presente no arquivo, e foi inserido na linha 772
+[Client 1] O número 53 é primo, e já se encontra no arquivo na linha 187
+[Client 1] O número 408 não é primo, não está presente no arquivo, e foi inserido na linha 774
+[Client 1] O número 562 não é primo, não está presente no arquivo, e foi inserido na linha 776
+[Client 1] O número 383 é primo, não está presente no arquivo, e foi inserido na linha 777
+[Client 1] O número 271 é primo, e já se encontra no arquivo na linha 88
+[Client 1] O número 275 não é primo, e já se encontra no arquivo na linha 592
+[Client 1] O número 875 não é primo, não está presente no arquivo, e foi inserido na linha 779
+[Client 1] O número 23 é primo, e já se encontra no arquivo na linha 370
+[Client 1] O número 342 não é primo, não está presente no arquivo, e foi inserido na linha 780
+[Client 1] O número 135 não é primo, e já se encontra no arquivo na linha 294
+[Client 1] O número 160 não é primo, e já se encontra no arquivo na linha 298
+[Client 1] O número 251 é primo, e já se encontra no arquivo na linha 453
+[Client 1] O número 823 é primo, e já se encontra no arquivo na linha 206
+[Client 1] O número 577 é primo, e já se encontra no arquivo na linha 118
+[Client 1] O número 698 não é primo, e já se encontra no arquivo na linha 590
+[Client 1] O número 242 não é primo, não está presente no arquivo, e foi inserido na linha 783
+[Client 1] O número 219 não é primo, e já se encontra no arquivo na linha 715
+[Client 1] O número 317 é primo, e já se encontra no arquivo na linha 543
+[Client 1] O número 215 não é primo, e já se encontra no arquivo na linha 98
+[Client 1] O número 353 é primo, não está presente no arquivo, e foi inserido na linha 786
+[Client 1] O número 132 não é primo, e já se encontra no arquivo na linha 585
+[Client 1] O número 829 é primo, e já se encontra no arquivo na linha 669
+[Client 1] O número 196 não é primo, e já se encontra no arquivo na linha 45
+[Client 1] O número 720 não é primo, e já se encontra no arquivo na linha 472
+[Client 1] O número 679 não é primo, e já se encontra no arquivo na linha 565
+[Client 1] O número 748 não é primo, e já se encontra no arquivo na linha 731
+[Client 1] O número 950 não é primo, e já se encontra no arquivo na linha 306
+[Client 1] O número 92 não é primo, e já se encontra no arquivo na linha 256
+[Client 1] O número 676 não é primo, não está presente no arquivo, e foi inserido na linha 789
+[Client 1] O número 666 não é primo, não está presente no arquivo, e foi inserido na linha 790
+[Client 1] O número 491 é primo, e já se encontra no arquivo na linha 159
+[Client 1] O número 961 não é primo, não está presente no arquivo, e foi inserido na linha 792
+[Client 1] O número 22 não é primo, e já se encontra no arquivo na linha 134
+[Client 1] O número 323 não é primo, e já se encontra no arquivo na linha 567
+[Client 1] O número 516 não é primo, e já se encontra no arquivo na linha 391
+[Client 1] O número 43 é primo, e já se encontra no arquivo na linha 434
+[Client 1] O número 513 não é primo, e já se encontra no arquivo na linha 238
+[Client 1] O número 718 não é primo, não está presente no arquivo, e foi inserido na linha 793
+[Client 1] O número 639 não é primo, e já se encontra no arquivo na linha 205
+[Client 1] O número 489 não é primo, não está presente no arquivo, e foi inserido na linha 795
+[Client 1] O número 778 não é primo, não está presente no arquivo, e foi inserido na linha 796
+[Client 1] O número 148 não é primo, e já se encontra no arquivo na linha 368
+[Client 1] O número 683 é primo, não está presente no arquivo, e foi inserido na linha 797
+[Client 1] O número 544 não é primo, e já se encontra no arquivo na linha 489
+[Client 1] O número 270 não é primo, e já se encontra no arquivo na linha 574
+[Client 1] O número 885 não é primo, e já se encontra no arquivo na linha 726
+[Client 1] O número 221 não é primo, e já se encontra no arquivo na linha 365
+[Client 1] O número 484 não é primo, e já se encontra no arquivo na linha 220
+[Client 1] O número 964 não é primo, e já se encontra no arquivo na linha 183
+[Client 1] O número 17 é primo, não está presente no arquivo, e foi inserido na linha 798
+[Client 1] O número 410 não é primo, e já se encontra no arquivo na linha 364
+[Client 1] O número 315 não é primo, e já se encontra no arquivo na linha 583
+[Client 1] O número 72 não é primo, e já se encontra no arquivo na linha 445
+[Client 1] O número 599 é primo, e já se encontra no arquivo na linha 633
+[Client 1] O número 787 é primo, não está presente no arquivo, e foi inserido na linha 800
+[Client 1] O número 418 não é primo, e já se encontra no arquivo na linha 404
+[Client 1] O número 962 não é primo, não está presente no arquivo, e foi inserido na linha 802
+[Client 1] O número 330 não é primo, e já se encontra no arquivo na linha 473
+[Client 1] O número 664 não é primo, e já se encontra no arquivo na linha 426
+[Client 1] O número 845 não é primo, e já se encontra no arquivo na linha 366
+[Client 1] O número 619 é primo, e já se encontra no arquivo na linha 587
+[Client 1] O número 95 não é primo, não está presente no arquivo, e foi inserido na linha 804
+[Client 1] O número 432 não é primo, e já se encontra no arquivo na linha 379
+[Client 1] O número 517 não é primo, e já se encontra no arquivo na linha 667
+[Client 1] O número 799 não é primo, não está presente no arquivo, e foi inserido na linha 805
+[Client 1] O número 748 não é primo, e já se encontra no arquivo na linha 731
+[Client 1] O número 59 é primo, e já se encontra no arquivo na linha 108
+[Client 1] O número 723 não é primo, e já se encontra no arquivo na linha 129
+[Client 1] O número 594 não é primo, e já se encontra no arquivo na linha 492
+[Client 1] O número 91 não é primo, e já se encontra no arquivo na linha 499
+[Client 1] O número 378 não é primo, e já se encontra no arquivo na linha 394
+[Client 1] O número 277 é primo, não está presente no arquivo, e foi inserido na linha 808
+[Client 1] O número 673 é primo, e já se encontra no arquivo na linha 21
+[Client 1] O número 999 não é primo, e já se encontra no arquivo na linha 468
+[Client 1] O número 349 é primo, e já se encontra no arquivo na linha 333
+[Client 1] O número 2 é primo, e já se encontra no arquivo na linha 192
+[Client 1] O número 832 não é primo, não está presente no arquivo, e foi inserido na linha 809
+[Client 1] O número 851 não é primo, e já se encontra no arquivo na linha 166
+[Client 1] O número 545 não é primo, e já se encontra no arquivo na linha 114
+[Client 1] O número 72 não é primo, e já se encontra no arquivo na linha 445
+[Client 1] O número 89 é primo, e já se encontra no arquivo na linha 666
+[Client 1] O número 632 não é primo, e já se encontra no arquivo na linha 280
+[Client 1] O número 171 não é primo, e já se encontra no arquivo na linha 278
+[Client 1] O número 846 não é primo, e já se encontra no arquivo na linha 208
+[Client 1] O número 289 não é primo, e já se encontra no arquivo na linha 680
+[Client 1] O número 58 não é primo, e já se encontra no arquivo na linha 673
+[Client 1] O número 115 não é primo, e já se encontra no arquivo na linha 122
+[Client 1] O número 134 não é primo, e já se encontra no arquivo na linha 319
+[Client 1] O número 447 não é primo, não está presente no arquivo, e foi inserido na linha 813
+[Client 1] O número 113 é primo, e já se encontra no arquivo na linha 710
+[Client 1] O número 753 não é primo, e já se encontra no arquivo na linha 54
+[Client 1] O número 263 é primo, e já se encontra no arquivo na linha 372
+[Client 1] O número 313 é primo, e já se encontra no arquivo na linha 58
+[Client 1] O número 194 não é primo, e já se encontra no arquivo na linha 15
+[Client 1] O número 814 não é primo, e já se encontra no arquivo na linha 461
+[Client 1] O número 88 não é primo, não está presente no arquivo, e foi inserido na linha 815
+[Client 1] O número 717 não é primo, e já se encontra no arquivo na linha 548
+[Client 1] O número 965 não é primo, e já se encontra no arquivo na linha 22
+[Client 1] O número 48 não é primo, não está presente no arquivo, e foi inserido na linha 817
+[Client 1] O número 984 não é primo, e já se encontra no arquivo na linha 86
+[Client 1] O número 966 não é primo, e já se encontra no arquivo na linha 409
+[Client 1] O número 740 não é primo, não está presente no arquivo, e foi inserido na linha 818
+[Client 1] O número 379 é primo, e já se encontra no arquivo na linha 2
+[Client 1] O número 128 não é primo, e já se encontra no arquivo na linha 147
+[Client 1] O número 154 não é primo, e já se encontra no arquivo na linha 544
+[Client 1] O número 55 não é primo, e já se encontra no arquivo na linha 500
+[Client 1] O número 711 não é primo, e já se encontra no arquivo na linha 557
+[Client 1] O número 247 não é primo, e já se encontra no arquivo na linha 757
+[Client 1] O número 866 não é primo, e já se encontra no arquivo na linha 50
+[Client 1] O número 338 não é primo, não está presente no arquivo, e foi inserido na linha 820
+[Client 1] O número 237 não é primo, não está presente no arquivo, e foi inserido na linha 821
+[Client 1] O número 213 não é primo, não está presente no arquivo, e foi inserido na linha 822
+[Client 1] O número 848 não é primo, não está presente no arquivo, e foi inserido na linha 823
+[Client 1] O número 826 não é primo, e já se encontra no arquivo na linha 127
+[Client 1] O número 233 é primo, e já se encontra no arquivo na linha 750
+[Client 1] O número 505 não é primo, não está presente no arquivo, e foi inserido na linha 825

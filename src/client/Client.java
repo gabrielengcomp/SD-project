@@ -21,8 +21,6 @@ import java.util.concurrent.ThreadLocalRandom;
  * termina a requisição em andamento e sai.
  */
 public class Client {
-    private static final int MAX_ATTEMPTS = 3;
-
     public static void main(String[] args) throws IOException, InterruptedException {
         if (args.length != 1) {
             System.err.println("Uso: java client.Client <id>");
@@ -52,13 +50,20 @@ public class Client {
         }
     }
 
-    /** Envia n ao balanceador, repetindo em caso de falha (a operação é idempotente). */
+    /**
+     * Envia n ao balanceador e só retorna quando houver confirmação (OK). Em caso de falha reenvia
+     * com espera crescente (200 ms até 2 s): a operação é idempotente, então repetir é seguro e nenhuma
+     * requisição é perdida. A única saída sem confirmação é o arquivo STOP (encerramento do sistema).
+     */
     private static void send(int id, int n) throws InterruptedException {
-        for (int attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+        long wait = Config.CLIENT_RETRY_MIN_MS;
+        for (int attempt = 1; ; attempt++) {
             try {
                 String resp = Net.request(Config.LB_PORT, Protocol.msg(Protocol.NUM, n));
                 String[] f = Protocol.parse(resp, 2);
                 if (Protocol.OK.equals(f[0])) {
+                    if (attempt > 1)
+                        System.out.println("[Client " + id + "] " + n + " confirmado após " + attempt + " tentativas");
                     System.out.println("[Client " + id + "] " + f[1]);
                     return;
                 }
@@ -67,8 +72,13 @@ public class Client {
                 System.out.println("[Client " + id + "] falha enviando " + n + " (tentativa "
                         + attempt + "): " + e.getMessage());
             }
-            Thread.sleep(200);
+            if (Files.exists(Path.of(Config.STOP_FILE))) {
+                System.out.println("[Client " + id + "] STOP durante o reenvio: " + n
+                        + " ficou sem confirmação (sistema indisponível)");
+                return;
+            }
+            Thread.sleep(wait);
+            wait = Math.min(wait * 2, Config.CLIENT_RETRY_MAX_MS);
         }
-        System.out.println("[Client " + id + "] DESISTIU de " + n + " após " + MAX_ATTEMPTS + " tentativas");
     }
 }

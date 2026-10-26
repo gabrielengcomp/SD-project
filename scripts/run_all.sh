@@ -2,7 +2,7 @@
 # Sobe o sistema inteiro: 2 dados, 3 apps, 1 balanceador, 2 clientes (processos independentes).
 cd "$(dirname "$0")/.."
 ./scripts/build.sh || exit 1
-rm -f STOP .pids
+rm -f STOP .pids logs/primos.log
 mkdir -p logs data
 
 start() { # nome classe args...

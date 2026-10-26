@@ -25,6 +25,15 @@ public final class Config {
     public static final String LOG_DIR = "logs";
     public static final String STOP_FILE = "STOP"; // se existir, os clientes encerram com limpeza
 
+    // Balanceador: falha rápida e circuit breaker
+    public static final int LB_CONNECT_TIMEOUT_MS = 1000; // conectar a um app
+    public static final int LB_READ_TIMEOUT_MS = 10000;   // esperar a resposta do app
+    public static final long LB_DOWN_MS = 3000;           // tempo que um app falho fica fora da rotação
+
+    // Cliente: reenvio com espera crescente
+    public static final long CLIENT_RETRY_MIN_MS = 200;
+    public static final long CLIENT_RETRY_MAX_MS = 2000;
+
     // Rede
     public static final int CONNECT_RETRIES = 20;
     public static final long CONNECT_RETRY_DELAY_MS = 250;
